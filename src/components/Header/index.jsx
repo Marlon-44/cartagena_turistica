@@ -1,11 +1,16 @@
+import { motion } from "framer-motion";
 import styles from "./header.module.css"
 const Header = () =>{
 
     return (
     
-    <header>
+    <motion.header
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+    >
         <div className={styles.header__container}>
-            <img src="assets/burgerMenu.svg" alt="Menu Icon" />
+            <img className={styles.burger__menu__img} src="assets/burgerMenu.svg" alt="Menu Icon" />
             <nav className={styles.menu__nav}>
                 <ul>
                     <div className={styles.option__selected}>
@@ -35,7 +40,7 @@ const Header = () =>{
             
         </div>
             
-        </header>
+        </motion.header>
     
         
     )

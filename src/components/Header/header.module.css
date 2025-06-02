@@ -5,6 +5,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.burger__menu__img{
+    width: 3.2%;
+    padding-left: 10px;
+}
 .header__container{
     display: flex;
     justify-content: space-between;
@@ -48,7 +52,7 @@
 }
 
 .option__selected{
-    background-color: #20b2ff;
+    background-color: #005a8a;
 
 }
 
@@ -64,7 +68,7 @@
 
 .social__media__container div{
     height: 100%;
-    background-color: #9c9c9c;
+    background-color: #bbbbbb;
     display: flex;
     align-items: flex-end;
     padding: 0 5px 2px;

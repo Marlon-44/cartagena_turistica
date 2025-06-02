@@ -11,21 +11,96 @@
     display: flex;
     gap: 30px;
     padding-left: 100px;
+    width: 100%;
+    align-items: center;
+    height: 100%;
 }
 .banner__image{
-    width: 160px;
-    height: 450px;
+    width: 12%;
+    height: 60%;
     background-color: black;
     display: flex;
-    flex-grow: 1;
     
 }
-h2{
+.image__text__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 5vw;
+}
+.banner__title{
     color: aqua;
-    font-size: 150px;
-    position:absolute;
-    right: 140px;
+    font-size: 2.4em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #005a8a;
+}
+.title__highlight{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #fff;
 }
 .up{
-    margin-top: 30px;
+    margin-top: 10%;
+}
+
+.div1{
+    background-image: url("assets/banner__img2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.div2{
+    background-image: url("assets/banner__img__ex.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.div3{
+    background-image: url("assets/banner__img1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.div4{
+    background-image: url("assets/banner__img3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner__subtitle{
+    font-size: 0.3em;
+    letter-spacing: 20px;
+}
+.banner__paragraph{
+    font-size: 0.2em;
+    margin-top: 5%;
+}
+
+.banner__info{
+    position: relative;
+    left: 120%;
+    width: 250%;
+    text-align: justify;
+    
+}
+.banner__button{
+    height: 10%;
+    position: relative;
+    left: 115%;
+    align-self: flex-end;
+    width: 100%;
+    background-color: #fff;
+    border: #005a8a 1px solid;
+    
+}
+.banner__button a{
+    font-family: "Montserrat", san serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #005a8a;
+    
+}
+
+.banner__button:hover{
+    cursor: pointer;
+    background-color: #e8f1ff;
 }
