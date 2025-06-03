@@ -5,9 +5,9 @@ export const ServiceContext  = createContext();
 export const ServiceProvider = ({children}) =>{
 
     const [services, setServices] = useState([
-        {id:1,name: "Ilands",color: "#6BD1FF"},
-        {id:2,name: "Yatches", color: "#00C86F"},
-        {id:3,name: "City Tours", color: "#FFBA05"}
+        {id:1,name: "Ilands and Beach Clubes",info: "+15 ilands and Beach Clubes.", url__image:"assets/service__iland.jpg"},
+        {id:2,name: "Yatches", info: "Yatches, Romantic Dinners and More.", url__image:"assets/service__yatch.jpg"},
+        {id:3,name: "City Tours", info: "Cartagena, Barranquilla, Santa Marta.", url__image:"assets/service__citytour.png"}
     ])
 
     return(

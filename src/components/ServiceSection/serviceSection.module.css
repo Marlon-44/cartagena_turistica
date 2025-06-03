@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.service__section{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    padding: 2%;
+    min-width: 60%;
+    gap: 50px;
+    justify-content: center;
+
+}
+@media screen and (min-width: 900px) {
+    .service__section{
+        flex-direction: row;
+    }
+}
