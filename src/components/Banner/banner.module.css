@@ -3,24 +3,26 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
+    
 }
 .images__section{
 
     display: flex;
     gap: 30px;
-    padding-left: 100px;
+    padding-left: 20px;
     width: 100%;
     align-items: center;
     height: 100%;
+    margin-top: 15%;
 }
 .banner__image{
-    width: 12%;
-    height: 60%;
+    width: 27%;
+    height: 70%;
     background-color: black;
     display: flex;
-    
 }
 .image__text__container{
     display: flex;
@@ -30,10 +32,11 @@
 }
 .banner__title{
     color: aqua;
-    font-size: 2.4em;
+    font-size: 5em;
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     color: #005a8a;
+    letter-spacing: 5px;
 }
 .title__highlight{
     font-family: "Oswald", sans-serif;
@@ -45,20 +48,13 @@
 }
 
 .div1{
-    background-image: url("assets/banner__img2.jpg");
-    background-size: cover;
-    background-position: center;
+    display: none;
 }
 .div2{
-    background-image: url("assets/banner__img__ex.jpg");
-    background-size: cover;
-    background-position: center;
+    display: none;
 }
 .div3{
-    background-image: url("assets/banner__img1.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
+    display: none;
 }
 .div4{
     background-image: url("assets/banner__img3.jpg");
@@ -67,12 +63,13 @@
 }
 
 .banner__subtitle{
-    font-size: 0.3em;
+    font-size: 0.7em;
     letter-spacing: 20px;
 }
 .banner__paragraph{
-    font-size: 0.2em;
+    font-size: 0.6em;
     margin-top: 5%;
+    padding-right: 20px;
 }
 
 .banner__info{
@@ -83,7 +80,7 @@
     
 }
 .banner__button{
-    height: 10%;
+    height: 35px;
     position: relative;
     left: 115%;
     align-self: flex-end;
@@ -103,4 +100,78 @@
 .banner__button:hover{
     cursor: pointer;
     background-color: #e8f1ff;
+}
+
+
+@media screen and (min-width: 450px) {
+    .images__section{
+        
+        padding-left: 100px;
+        margin-top: 0;
+        
+    }
+    .banner__title{
+        color: aqua;
+        font-size: 2.4em;
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+        color: #005a8a;
+    }
+    .div1{
+        display: block;
+        background-image: url("assets/banner__img2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .div2{
+        display: block;
+        background-image: url("assets/banner__img__ex.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .div3{
+        display: flex;
+        background-image: url("assets/banner__img1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .banner__image{
+        width: 12%;
+        height: 60%;
+        background-color: black;
+        display: flex;
+    }
+    .image__text__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 5vw;
+    }
+    .banner__title{
+        color: aqua;
+        font-size: 2.4em;
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+        color: #005a8a;
+        padding-left: 0;
+        letter-spacing: 0px;
+    }
+    
+    .banner__subtitle{
+        font-size: 0.3em;
+        letter-spacing: 20px;
+    }
+    .banner__paragraph{
+        font-size: 0.2em;
+        margin-top: 5%;
+    }
+
+    .banner__info{
+        position: relative;
+        left: 120%;
+        width: 250%;
+        text-align: justify;
+        
+    }
 }

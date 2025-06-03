@@ -6,7 +6,7 @@
 }
 
 .burger__menu__img{
-    width: 3.2%;
+    width: 10%;
     padding-left: 10px;
 }
 .header__container{
@@ -19,63 +19,98 @@
     position: absolute;
 }
 .menu__nav{
-    height: 100%;
-}
-.menu__nav ul{
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    align-items: baseline;
-    height: 100%;
-}
-.menu__nav ul p{
-    font-size: 10px;
-    font-weight: 600;
-    color: #9c9c9c;
-}
-.menu__nav ul div a{
-    text-decoration: none;
-    font-weight: 500;
-}
-.menu_option{
-    color: #000;
-    
-}
+        display: none;
+    }
 
-.menu__nav ul div{
-    display: flex;
-    flex-direction: column;
-    width: 120px;
-    justify-content: flex-end;
-    height: 100%;
-    text-align: center;
-}
-
-.option__selected{
-    background-color: #005a8a;
-
-}
-
-.option__selected__text{
-    color: #fff;
-}
 .social__media__container{
-    display: flex;
-    gap: 20px;
-    height: 100%;
-    
+        display: flex;
+        gap: 20px;
+        height: 100%;
+        
+    }
+
+
+    .social__media__container div{
+        height: 100%;
+        background-color: #bbbbbb;
+        display: flex;
+        align-items: flex-end;
+        padding: 0 5px 2px;
+
+    }
+    .social__media__container img{
+        
+        width: 30px;
+        
+    }
+
+@media screen and (min-width: 450px) {
+    .burger__menu__img{
+        display: none;
+    }
+    .social__media__container{
+        display: none;
+        
+    }
 }
 
-.social__media__container div{
-    height: 100%;
-    background-color: #bbbbbb;
-    display: flex;
-    align-items: flex-end;
-    padding: 0 5px 2px;
+@media screen and (min-width: 700px) {
+
+    .menu__nav{
+        display: flex;
+        height: 100%;
+    }
+    .menu__nav ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        align-items: baseline;
+        height: 100%;
+    }
+    .menu__nav ul p{
+        font-size: 10px;
+        font-weight: 600;
+        color: #9c9c9c;
+    }
+    .menu__nav ul div a{
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .menu_option{
+        color: #000;
+        
+    }
+    .menu__nav ul div{
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        justify-content: flex-end;
+        height: 100%;
+        text-align: center;
+    }
+
+    .option__selected{
+        background-color: #005a8a;
+
+    }
+
+    .option__selected__text{
+        color: #fff;
+    }
 
 }
-.social__media__container img{
-    
-    width: 30px;
-    
+
+@media screen and (min-width: 900px) {
+    .burger__menu__img{
+        display: block;
+        width: 3.2%;
+        padding-left: 10px;
+    }
+    .social__media__container{
+        display: flex;
+        gap: 20px;
+        height: 100%;
+        
+    }
+
 }
