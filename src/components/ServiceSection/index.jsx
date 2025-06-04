@@ -5,7 +5,7 @@ import styles from "./serviceSection.module.css"
 
 const ServiceSection =()=>{
     const {services} = useContext(ServiceContext)
-    console.log("services: ", services); 
+    
     return(
         
         <section className={styles.service__section}>

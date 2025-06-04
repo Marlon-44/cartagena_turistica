@@ -7,7 +7,6 @@
 .service__section{
     display: flex;
     flex-direction: column;
-    height: 80vh;
     width: 100vw;
     padding: 2%;
     min-width: 60%;
@@ -17,6 +16,7 @@
 }
 @media screen and (min-width: 900px) {
     .service__section{
+        height: 80vh;
         flex-direction: row;
     }
 }

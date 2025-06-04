@@ -1,0 +1,10 @@
+
+.plan__section{
+    width: 60vw;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}

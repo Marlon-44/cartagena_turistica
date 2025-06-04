@@ -1,7 +1,7 @@
 import styles from "./serviceCard.module.css"
 import { motion } from "framer-motion"
 const ServiceCard =({nombre, info, reference})=>{
-    console.log("SERVICE: ", nombre," , ", info, " , ",reference)
+    
     return(
         <motion.div 
         initial={{opacity: 0, y:100}}

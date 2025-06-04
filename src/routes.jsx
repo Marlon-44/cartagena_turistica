@@ -5,7 +5,6 @@ const AppRoutes = () =>{
     
     return(
             <BrowserRouter>
-            
                 <Routes>
                     <Route path="/" element={<Home/>}></Route>
                 </Routes>

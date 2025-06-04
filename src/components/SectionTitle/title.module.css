@@ -2,8 +2,16 @@
 .section__title{
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #000;
     text-align: center;
     margin: 5% 0 ;
+}
+
+@media screen  and (min-width: 900){
+    .section__title{
+        font-size: 2.5rem;
+    
+    }
+
 }
