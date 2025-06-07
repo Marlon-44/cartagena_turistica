@@ -1,6 +1,59 @@
 
 .plan__card{
-    width: 30%;
-    height: 300px;
-    background-color: #005a8a;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.089);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.plan__card img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5%;
+}
+.plan__card h3 , h4{
+    padding-left: 10px;
+}
+.plan__price{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 5%;
+
+}
+.plan__price p{
+    color: #005a8a;
+    font-weight: 600;
+}
+.plan__card h4{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.plan__card__button{
+    
+    width: 40%;
+    background-color: #005a8ab7;
+    border: none;
+    border-radius: 10px;
+    padding: 0 7%;
+    color: #fff;
+    padding: 10px;
+}
+.plan__card__button img{
+    width: 5%;
+}
+.plan__card__button:hover{
+    background-color: #003653;
+    cursor: pointer;
+}
+.plan__card__button a{
+    color: #fff;
+    text-decoration: none;
 }
