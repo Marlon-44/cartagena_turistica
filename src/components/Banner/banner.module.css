@@ -119,19 +119,19 @@
     }
     .div1{
         display: block;
-        background-image: url("assets/banner__img2.jpg");
+        background-image: url("/assets/banner__img2.jpg");
         background-size: cover;
         background-position: center;
     }
     .div2{
         display: block;
-        background-image: url("assets/banner__img__ex.jpg");
+        background-image: url("/assets/banner__img__ex.jpg");
         background-size: cover;
         background-position: center;
     }
     .div3{
         display: flex;
-        background-image: url("assets/banner__img1.jpg");
+        background-image: url("/assets/banner__img1.jpg");
         background-size: cover;
         background-position: center;
     }
