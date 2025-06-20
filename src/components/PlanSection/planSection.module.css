@@ -8,6 +8,7 @@
 .plan__section{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2%;
@@ -27,4 +28,12 @@
     border: 1px #005a8a solid;
     width: 10%;
     align-self: center;
+}
+
+@media screen and (min-width: 900px) {
+    .plan__section{
+        
+        flex-direction: row;
+        
+    }
 }

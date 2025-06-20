@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 .plan__card{
     width: 100%;
     height: 100%;
@@ -9,7 +11,7 @@
     flex-grow: 1;
 }
 .plan__card img{
-    height: 60%;
+    height: 50%;
     width: 100%;
     object-fit: cover;
     padding: 0;
@@ -18,6 +20,9 @@
 }
 .plan__card h3 , h4{
     padding-left: 10px;
+}
+.plan__card h3{
+    font-size: 1.3rem;
 }
 .plan__price{
     

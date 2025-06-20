@@ -1,0 +1,197 @@
+[
+    {
+        "id": 0,
+        "nombre": "Encantada Beach",
+        "categoria": "Island",
+        "precio": 400000,
+        "descripcion": "Embarcaremos en una emocionante aventura por aguas cristalinas en una isla privada.\n\nINCLUYE\nTransporte en lancha ida y regreso\nCoctel de bienvenida\nAlmuerzo típico\nUso de instalaciones\nCoordinador Bilingüe\n\nNO INCLUYE\nTasa portuaria\nActividades adicionales\nGastos no especificados",
+        "imagenes": [
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": true
+    },
+    {
+        "id": 1,
+        "nombre": "City Lights Tour",
+        "categoria": "City Tour",
+        "precio": 150000,
+        "descripcion": "Un recorrido nocturno por los lugares más emblemáticos de la ciudad con guía bilingüe.",
+        "imagenes": [
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": false
+    },
+    {
+        "id": 2,
+        "nombre": "Luxury Yatch Sunset",
+        "categoria": "Yatches",
+        "precio": 600000,
+        "descripcion": "Navega en un yate de lujo mientras disfrutas de la puesta de sol y un brindis a bordo.",
+        "imagenes": [
+            "/assets/planes__tour3islas.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": true
+    },
+    {
+        "id": 3,
+        "nombre": "Isla Tranquila",
+        "categoria": "Island",
+        "precio": 350000,
+        "descripcion": "Relájate en una isla tranquila con playas vírgenes y mar cristalino.",
+        "imagenes": [
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": false
+    },
+    {
+        "id": 4,
+        "nombre": "Tour Histórico",
+        "categoria": "City Tour",
+        "precio": 120000,
+        "descripcion": "Conoce la historia colonial en un recorrido por los museos y murallas de la ciudad.",
+        "imagenes": [
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": true
+    },
+    {
+        "id": 5,
+        "nombre": "Fiesta en Yate",
+        "categoria": "Yatches",
+        "precio": 700000,
+        "descripcion": "Disfruta de música, bebidas y diversión en alta mar con amigos.",
+        "imagenes": [
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": false
+    },
+    {
+        "id": 6,
+        "nombre": "Aventura Isla Coral",
+        "categoria": "Island",
+        "precio": 450000,
+        "descripcion": "Snorkel, almuerzo y playa en una isla con arrecifes de coral únicos.",
+        "imagenes": [
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": false
+    },
+    {
+        "id": 7,
+        "nombre": "Recorrido Panorámico",
+        "categoria": "City Tour",
+        "precio": 130000,
+        "descripcion": "Tour panorámico por los sitios más instagrameables de la ciudad.",
+        "imagenes": [
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": true
+    },
+    {
+        "id": 8,
+        "nombre": "Yate Privado VIP",
+        "categoria": "Yatches",
+        "precio": 850000,
+        "descripcion": "Experiencia privada en un yate premium con chef a bordo.",
+        "imagenes": [
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": false
+    },
+    {
+        "id": 9,
+        "nombre": "Día de Relax en Isla Luna",
+        "categoria": "Island",
+        "precio": 390000,
+        "descripcion": "Día completo de relax, spa natural y comida típica isleña.",
+        "imagenes": [
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": false
+    },
+    {
+        "id": 10,
+        "nombre": "Tour Gastronómico",
+        "categoria": "City Tour",
+        "precio": 160000,
+        "descripcion": "Recorre los sabores típicos del Caribe con paradas en varios restaurantes.",
+        "imagenes": [
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": true
+    },
+    {
+        "id": 11,
+        "nombre": "Yate Familiar",
+        "categoria": "Yatches",
+        "precio": 500000,
+        "descripcion": "Un yate cómodo para disfrutar en familia con snacks y bebidas.",
+        "imagenes": [
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": true
+    },
+    {
+        "id": 12,
+        "nombre": "Isla Encanto Natural",
+        "categoria": "Island",
+        "precio": 370000,
+        "descripcion": "Excursión a una isla con actividades ecológicas y senderos naturales.",
+        "imagenes": [
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": true
+    },
+    {
+        "id": 13,
+        "nombre": "City Bike Tour",
+        "categoria": "City Tour",
+        "precio": 100000,
+        "descripcion": "Explora la ciudad en bicicleta con guía, paradas fotográficas y agua incluida.",
+        "imagenes": [
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": true
+    },
+    {
+        "id": 14,
+        "nombre": "Yate Sunset & DJ",
+        "categoria": "Yatches",
+        "precio": 780000,
+        "descripcion": "Atardecer caribeño con DJ en vivo y barra libre a bordo del yate.",
+        "imagenes": [
+            "/assets/planes__boraboravip.png",
+            "/assets/planes__nenabeach.png",
+            "/assets/planes__boraboravip.png"
+        ],
+        "destacado": true
+    }
+]

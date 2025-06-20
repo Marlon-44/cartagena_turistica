@@ -1,8 +1,13 @@
 import { style } from "framer-motion/client";
 import styles from "./planCard.module.css"
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
-const PlanCard = ({url__image, name, place, price}) =>{
+const PlanCard = ({plan}) =>{
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate(`/plan/${plan.id}`);
+    };
     return (
         <motion.div 
             initial={{opacity: 0, y:100}}
@@ -11,12 +16,13 @@ const PlanCard = ({url__image, name, place, price}) =>{
             viewport={{once:true, amount: 0.2}}
             className={styles.plan__card}>
                 
-            <img src={url__image} alt="" />
-            <h3>{name}</h3>
-            <h4>{place}</h4>
+            <img src={plan.imagenes[0]} alt="" />
+            <h3>{plan.nombre}</h3>
+            <h4>Cartagena de Indias</h4>
             <div className={styles.plan__price}>
-                <p>{price}</p>
-                <button className={styles.plan__card__button}>Ver Mas</button>
+                <p>{`$ ${plan.precio}`}</p>
+                <button className={styles.plan__card__button}
+                onClick={handleClick}>Ver Mas</button>
             </div>
         </motion.div>
     )

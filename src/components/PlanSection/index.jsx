@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import PlanCard from "../PlanCard";
 import styles from "./planSection.module.css"
 import { motion, AnimatePresence, styleEffect } from "framer-motion";
+import PlanesContext from "../../features/Planes/PlanesContext";
+import { useNavigate } from "react-router-dom";
 
 const planes = [
     {
@@ -91,11 +93,14 @@ const planes = [
 ];
 
 
+
 const PlanesSection = () => {
     const INITIAL_COUNT = 6;
     const STEP = 3;
     const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
+    const { planesDestacados } = useContext(PlanesContext);
 
+    const navigate = useNavigate();
     const handleToggle = () => {
         if (visibleCount >= planes.length) {
             setVisibleCount(INITIAL_COUNT);
@@ -105,13 +110,15 @@ const PlanesSection = () => {
     };
 
     const isAllVisible = visibleCount >= planes.length;
-
+    const handleClickViewMore=()=>{
+        navigate(`/homePage`)
+    }
     return (
         <section className={styles.plan__section__container}>
             
             <div className={styles.plan__section}>
                 <AnimatePresence>
-                    {planes.slice(0, visibleCount).map((plan) => (
+                    {planesDestacados.slice(0, visibleCount).map((plan) => (
                         <motion.div
                             key={plan.id}
                             initial={{ opacity: 0, y: 40 }}
@@ -121,10 +128,7 @@ const PlanesSection = () => {
                             className={styles.plan__card__container}
                         >
                             <PlanCard
-                                url__image={plan.url__image}
-                                name={plan.name}
-                                place={plan.place}
-                                price={plan.price}
+                                plan={plan}
                             />
                         </motion.div>
                     ))}
@@ -135,12 +139,13 @@ const PlanesSection = () => {
             <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    onClick={handleToggle}
+                    onClick={handleClickViewMore}
                     className={styles.plan__section__button}
                     
                 >
-                    {isAllVisible ? "Ver menos" : "Ver más"}
+                    {isAllVisible ? "View less" : "View More"}
                 </motion.button>
+                
         </section>
     );
 };

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import ServiceCard from "../ServiceCard";
-import { ServiceContext } from "../../Context/servicesContext";
 import styles from "./serviceSection.module.css"
+import { ServiceContext } from "../../Context/servicesContext";
 
 const ServiceSection =()=>{
     const {services} = useContext(ServiceContext)

@@ -6,7 +6,7 @@ import SectionTitle from "../../components/SectionTitle";
 import ServiceSection from "../../components/ServiceSection";
 import styles from "./index.module.css"
 import PlanSection from "../../components/PlanSection";
-const Home = () =>{
+const LandingPage = () =>{
 
     return (
         <div className={styles.body__page}>
@@ -21,4 +21,4 @@ const Home = () =>{
     )
 }
 
-export default Home;
+export default LandingPage;

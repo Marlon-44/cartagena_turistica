@@ -1,0 +1,17 @@
+
+.plan__details{
+    width: 50vw;
+    margin: 2rem;
+    margin-top: 5rem;
+}
+.plan__details h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.plan__details p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.details__table tbody tr th{
+    width: 20%;
+}
