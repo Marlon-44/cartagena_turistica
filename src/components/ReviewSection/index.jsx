@@ -3,7 +3,7 @@ import Subtitle from "../Subtitle";
 import styles from "./index.module.css";
 import { motion, AnimatePresence } from "framer-motion";
 import ReviewCard from "../ReviewCard";
-import { useReviews } from "../../features/Reviews/ReviewsContext";
+import { useReviews } from "../../features/reviews/ReviewsContext";
 
 const ReviewSection = () => {
     const [showModal, setShowModal] = useState(false);
