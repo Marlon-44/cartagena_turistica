@@ -4,7 +4,7 @@ import PlanSumamry from "../../components/PlanSummary";
 import DetailSection from "../../components/DetailSection";
 import Header from "../../components/Header";
 import ReviewSection from "../../components/ReviewSection";
-import PlanesContext from "../../features/Planes/PlanesContext";
+import PlanesContext from "../../features/planes/PlanesContext";
 
 const PlanDetails = () => {
     const { id } = useParams();
