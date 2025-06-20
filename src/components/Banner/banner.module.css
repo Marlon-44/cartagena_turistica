@@ -57,7 +57,7 @@
     display: none;
 }
 .div4{
-    background-image: url("assets/banner__img3.jpg");
+    background-image: url("/assets/banner__img3.jpg");
     background-size: cover;
     background-position: center;
 }
