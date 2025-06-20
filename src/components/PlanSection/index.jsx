@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import PlanCard from "../PlanCard";
 import styles from "./planSection.module.css"
 import { motion, AnimatePresence, styleEffect } from "framer-motion";
-import PlanesContext from "../../features/Planes/PlanesContext";
+import PlanesContext from "../../features/planes/PlanesContext";
 import { useNavigate } from "react-router-dom";
 
 const planes = [
