@@ -77,10 +77,10 @@ const PlanFilterForm = () => {
 
     return (
         <aside className={styles.filter__container}>
-            <h2>Filtrar vehículos</h2>
+            <h2>Filtrar Planes</h2>
 
             <section className={styles.filter__type}>
-                <h3>Tipo de Vehículo</h3>
+                <h3>Tipo de Plan</h3>
                 <div className={styles.checkbox__group}>
                     {PLANES_PERMITIDOS.map(v => (
                         <label key={v}>
@@ -118,7 +118,7 @@ const PlanFilterForm = () => {
             
 
             <section className={styles.filter__type}>
-                <h3>Capacidad de Pasajeros</h3>
+                <h3>Cantidad dde personas</h3>
                 <label>
                     Mínimo:
                     <input

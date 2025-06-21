@@ -1,5 +1,5 @@
 // src/Pages/Home/index.jsx
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import styles from "./index.module.css";
 import PlanCard from "../../components/PlanCard";
 import PlanFilterForm from "../../components/PlanFilterForm";
@@ -10,11 +10,12 @@ import PlanesContext from "../../features/planes/PlanesContext";
 import Whatsapp from "../../components/Whatsapp";
 
 const Home = () => {
-    const { planes, loading } = useContext(PlanesContext);
+    const { planes, loading, filtrosAplicados, resetearFiltros } = useContext(PlanesContext);
     console.log("Planes: ", planes);
     const [currentPage, setCurrentPage] = useState(1);
     const plansPerPage = 9;
 
+    
     // Cálculo de índices
     const indexOfLastPlan = currentPage * plansPerPage;
     const indexOfFirstPlan = indexOfLastPlan - plansPerPage;

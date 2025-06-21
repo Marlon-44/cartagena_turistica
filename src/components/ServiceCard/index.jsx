@@ -1,7 +1,15 @@
+import { useContext } from "react";
 import styles from "./serviceCard.module.css"
 import { motion } from "framer-motion"
-const ServiceCard =({nombre, info, reference})=>{
-    
+import PlanesContext from "../../features/planes/PlanesContext";
+import { useNavigate } from "react-router-dom";
+const ServiceCard =({nombre, info, reference, category})=>{
+    const {filtrarPorCategoria} = useContext(PlanesContext);
+    const navigate = useNavigate();
+    const handleCategoriaClick = (categoria) => {
+        filtrarPorCategoria(categoria);
+        navigate("/homePage"); // Redirige
+    };
     return(
         <motion.div 
         initial={{opacity: 0, y:100}}
@@ -16,7 +24,7 @@ const ServiceCard =({nombre, info, reference})=>{
                     <p>{info}</p>
                 </div>
                 
-                <button className={styles.service__card__button}>
+                <button className={styles.service__card__button} onClick={() => handleCategoriaClick(category)}>
                     <a href={reference}>Explore Now</a>
                     <img src="assets/chebron__right.png" alt="" />
                 </button>

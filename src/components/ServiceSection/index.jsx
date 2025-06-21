@@ -12,7 +12,7 @@ const ServiceSection =()=>{
             
             {
                 services.map((service)=>(
-                    <ServiceCard key={service.id} nombre={service.name} info={service.info} reference={service.url__image}/>
+                    <ServiceCard key={service.id} nombre={service.name} info={service.info} reference={service.url__image} category={service.category}/>
                 ))
             }
             

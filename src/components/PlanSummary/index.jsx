@@ -99,7 +99,7 @@ const PlanSummary = ({ plan }) => {
                     />
                 </div>
 
-                <p>{plan.descripcion}</p>
+                            
                 <button className={styles.book__button} onClick={handleBooking}>Reservar</button>
             </div>
         </section>

@@ -1,17 +1,17 @@
 import { createContext, useState } from "react";
 
-export const ServiceContext  = createContext();
+export const ServiceContext = createContext();
 
-export const ServiceProvider = ({children}) =>{
+export const ServiceProvider = ({ children }) => {
 
     const [services, setServices] = useState([
-        {id:1,name: "Ilands and Beach Clubes",info: "+15 ilands and Beach Clubes.", url__image:"assets/service__iland.jpg"},
-        {id:2,name: "Yatches", info: "Yatches, Romantic Dinners and More.", url__image:"assets/service__yatch.jpg"},
-        {id:3,name: "City Tours", info: "Cartagena, Barranquilla, Santa Marta.", url__image:"assets/service__citytour.png"}
+        { id: 1, name: "Ilands and Beach Clubes", info: "+15 ilands and Beach Clubes.", url__image: "assets/service__iland.jpg", category: "Island"},
+        { id: 2, name: "Yatches", info: "Yatches, Romantic Dinners and More.", url__image: "assets/service__yatch.jpg", category: "Yatches"},
+        { id: 3, name: "City Tours", info: "Cartagena, Barranquilla, Santa Marta.", url__image: "assets/service__citytour.png", category: "City Tour" }
     ])
 
-    return(
-        <ServiceContext.Provider value={{services, setServices}}>
+    return (
+        <ServiceContext.Provider value={{ services, setServices }}>
             {children}
         </ServiceContext.Provider>
     )

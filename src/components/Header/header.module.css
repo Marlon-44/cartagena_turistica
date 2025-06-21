@@ -6,9 +6,12 @@
 
 }
 
-.burger__menu__img {
+.logo__img {
     width: 16%;
     padding-left: 10px;
+}
+.logo__img:hover{
+    cursor: pointer;
 }
 .logo__text{
     color:#005a8a;
@@ -44,10 +47,14 @@
     background-color: #bbbbbb;
     display: flex;
     align-items: flex-end;
-    padding: 0 5px 2px;
-
+    padding: 0 5px 10px;
 }
 
+.social__media__container div:hover{
+    cursor: pointer;
+    background-color: #005a8a;
+
+}
 .social__media__container img {
 
     width: 30px;
@@ -68,7 +75,7 @@ Link{
 }
 
 @media screen and (min-width: 450px) {
-    .burger__menu__img {
+    .logo__img {
         display: none;
     }
 
@@ -106,7 +113,8 @@ Link{
 
     .menu_option {
         color: #000;
-
+        border: none;
+        background-color: #fff;
     }
 
     .menu__nav ul div {
@@ -129,7 +137,7 @@ Link{
 }
 
 @media screen and (min-width: 900px) {
-    .burger__menu__img {
+    .logo__img {
         display: block;
         width: auto;
         padding-left: 10px;
