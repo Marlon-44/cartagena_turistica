@@ -1,17 +1,43 @@
-
-.plan__details{
-    width: 50vw;
+.plan__details {
+    width: 90vw;
     margin: 2rem;
     margin-top: 5rem;
 }
-.plan__details h2{
+
+.plan__details h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
-.plan__details p{
+
+.plan__details p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
-.details__table tbody tr th{
+
+.details__table tbody tr th {
     width: 20%;
+}
+
+@media screen and (min-width:900px) {
+
+    .plan__details {
+        width: 90%;
+        margin: auto;
+        margin-top: 5rem;
+    }
+
+    .plan__details h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .plan__details p {
+        max-width: 50%;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .details__table tbody tr th {
+        width: 20%;
+    }
 }

@@ -5,6 +5,7 @@ import DetailSection from "../../components/DetailSection";
 import Header from "../../components/Header";
 import ReviewSection from "../../components/ReviewSection";
 import PlanesContext from "../../features/planes/PlanesContext";
+import Whatsapp from "../../components/Whatsapp";
 
 const PlanDetails = () => {
     const { id } = useParams();
@@ -17,6 +18,7 @@ const plan = planes.find((p) => p.id === parseInt(id));
     return (
         <>  
             <Header/>
+            <Whatsapp/>
             <PlanSumamry plan={plan}/>
             <DetailSection plan={plan}/>
             <ReviewSection/>
