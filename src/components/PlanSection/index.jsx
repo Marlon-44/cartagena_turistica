@@ -98,7 +98,7 @@ const PlanesSection = () => {
     const INITIAL_COUNT = 6;
     const STEP = 3;
     const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
-    const { planesDestacados } = useContext(PlanesContext);
+    const { planesDestacados, resetearFiltros} = useContext(PlanesContext);
 
     const navigate = useNavigate();
     const handleToggle = () => {
@@ -111,6 +111,7 @@ const PlanesSection = () => {
 
     const isAllVisible = visibleCount >= planes.length;
     const handleClickViewMore=()=>{
+        resetearFiltros();
         navigate(`/homePage`)
     }
     return (

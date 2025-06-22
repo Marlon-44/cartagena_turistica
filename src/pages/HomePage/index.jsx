@@ -10,7 +10,7 @@ import PlanesContext from "../../features/planes/PlanesContext";
 import Whatsapp from "../../components/Whatsapp";
 
 const Home = () => {
-    const { planes, loading, filtrosAplicados, resetearFiltros } = useContext(PlanesContext);
+    const {planes, loading } = useContext(PlanesContext);
     console.log("Planes: ", planes);
     const [currentPage, setCurrentPage] = useState(1);
     const plansPerPage = 9;

@@ -31,6 +31,7 @@ const PlanesProvider = ({ children }) => {
     };
 
     const filtrarPorCategoria = (categoria) => {
+
         const filtrados = planesOriginales.filter(plan => plan.categoria === categoria);
         actualizarPlanes(filtrados, { categoria });
     };
@@ -48,7 +49,8 @@ const PlanesProvider = ({ children }) => {
             filtrosAplicados,
             filtrarPorCategoria,
             resetearFiltros,
-            cargarPlanes // opcional si lo necesitas en otra parte
+            cargarPlanes,
+            planesOriginales // opcional si lo necesitas en otra parte
         }}>
             {children}
         </PlanesContext.Provider>

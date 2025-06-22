@@ -9,9 +9,9 @@ import Whatsapp from "../../components/Whatsapp";
 
 const PlanDetails = () => {
     const { id } = useParams();
-    const { planes } = useContext(PlanesContext);
+    const { planesOriginales } = useContext(PlanesContext);
     console.log("plan seleccionado ", id);
-const plan = planes.find((p) => p.id === parseInt(id));
+const plan = planesOriginales.find((p) => p.id === parseInt(id));
 
     if (!plan) return <p>Plan no encontrado</p>;
 

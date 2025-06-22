@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import PlanesContext from "../../features/planes/PlanesContext";
 const Header = ({ telefono = "573024453961" }) => {
-    const { filtrarPorCategoria } = useContext(PlanesContext);
+    const { filtrarPorCategoria, resetearFiltros } = useContext(PlanesContext);
     const navigate = useNavigate();
 
     const handleCategoriaClick = (categoria) => {
@@ -15,6 +15,10 @@ const Header = ({ telefono = "573024453961" }) => {
 
         navigate("/"); // Redirige
     };
+    const handleHomeClick = () => {
+    resetearFiltros();  // ← borra filtros y vuelve al array original
+    navigate("/homePage");
+};
     const mensaje = encodeURIComponent("¡Hola! Estoy interesado en conocer más sobre los planes.");
     const url = `https://wa.me/${telefono}?text=${mensaje}`;
     return (
@@ -29,7 +33,7 @@ const Header = ({ telefono = "573024453961" }) => {
                 <nav className={styles.menu__nav}>
                     <ul>
                         <div className={styles.option__selected}>
-                            <Link className={styles.option__selected__text} to="/homePage">HOME</Link>
+                            <a className={styles.option__selected__text} onClick={handleHomeClick}>HOME</a>
                         </div>
                         <p>|</p>
                         <div>
