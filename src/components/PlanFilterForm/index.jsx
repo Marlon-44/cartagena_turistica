@@ -1,4 +1,5 @@
 
+import { style } from "framer-motion/client";
 import PlanesContext from "../../features/planes/PlanesContext";
 import styles from "./index.module.css";
 import { useState, useContext } from "react";// ✅ Importar el contexto
@@ -118,7 +119,7 @@ const PlanFilterForm = () => {
             
 
             <section className={styles.filter__type}>
-                <h3>Cantidad dde personas</h3>
+                <h3>Cantidad de personas</h3>
                 <label>
                     Mínimo:
                     <input
@@ -127,6 +128,7 @@ const PlanFilterForm = () => {
                         max="100"
                         value={filters.pasajerosMin}
                         onChange={(e) => handleInputNumber("pasajerosMin", e.target.value)}
+                        className={styles.input__text}
                     />
                 </label>
                 <label>
@@ -137,6 +139,7 @@ const PlanFilterForm = () => {
                         max="100"
                         value={filters.pasajerosMax}
                         onChange={(e) => handleInputNumber("pasajerosMax", e.target.value)}
+                        className={styles.input__text}
                     />
                 </label>
             </section>

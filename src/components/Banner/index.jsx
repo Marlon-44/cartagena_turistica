@@ -30,7 +30,7 @@ const Banner = () => {
                     transition={{duration:2, delay:1, ease: "easeOut"}}
                     className={clsx(styles.banner__image, styles.up, styles.div3)}>
                     <button className={styles.banner__button}>
-                        <a  href="">More Info</a>
+                        <a  href="">Iniciar Sesion</a>
                     </button>
                 </motion.div>
                 <motion.div 

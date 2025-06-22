@@ -1,8 +1,18 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "./index.module.css";
 import { style } from "framer-motion/client";
+import { useContext } from "react";
+import PlanesContext from "../../features/planes/PlanesContext";
+
 
 const Carrousel = () => {
+
+    const {filtrarPorCategoria} = useContext(PlanesContext);
+    const navigate = useNavigate();
+    const handleCategoriaClick = (categoria) => {
+        filtrarPorCategoria(categoria);
+        navigate("/homePage"); 
+    };
     return (
         <>
         
@@ -22,7 +32,7 @@ const Carrousel = () => {
                             <h4>Cartagena Turistica</h4>
                             <h2>ILANDS & BEACH CLUBES</h2>
 
-                            <Link to="#">Book Now</Link>
+                            <button  onClick={() => handleCategoriaClick("Island")}>Book Now</button>
                         </div>
                         <img className="d-block w-100" src="assets/islands.png" alt="First slide" />
                     </div>
@@ -32,7 +42,7 @@ const Carrousel = () => {
 
                             <h4>Cartagena Turistica</h4>
                             <h2>YATCHES</h2>
-                            <Link to="#">Book Now</Link>
+                            <button  onClick={() => handleCategoriaClick("Yatches")}>Book Now</button>
                         </div>
                         <img className="d-block w-100" src="assets/sibarita.png" alt="Second slide" />
                     </div>
@@ -41,7 +51,7 @@ const Carrousel = () => {
                         <div className={`${styles.overlayContent} ${styles.left}`}>
                             <h4>Cartagena Turistica</h4>
                             <h2>CITY TOUR</h2>
-                            <Link to="#">Book Now</Link>
+                            <button onClick={() => handleCategoriaClick("City Tour")}>Book Now</button>
                         </div>
                         <img className="d-block w-100" src="assets/duster.png" alt="Third slide" />
                     </div>

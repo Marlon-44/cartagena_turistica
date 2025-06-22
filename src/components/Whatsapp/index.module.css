@@ -7,11 +7,11 @@
     border-radius: 100%;
     transform: scale(1);
     transition: transform 0.3s ease, background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* sombra muy sutil */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .whatsapp__option:hover {
     cursor: pointer;
     background-color: #004368;
-    transform: scale(1.01); /* crece un poco en hover */
+    transform: scale(1.01);
 }

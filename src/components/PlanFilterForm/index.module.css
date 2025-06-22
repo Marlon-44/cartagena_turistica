@@ -8,7 +8,27 @@
     margin-bottom: 1rem;
 }
 
-
+.apply__button{
+    
+    margin-top: 2rem;
+    width: 80%;
+    align-self: center;
+    background-color: #005a8a;
+    color: #fff;
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+}
+.apply__button:hover{
+    background-color: #003653;
+}
+.input__text{
+    width: 50%;
+    border: 1px #e7e7e7 solid;
+    margin-left: 1rem;
+    padding-left: 5px;
+}
 .checkbox__group,
 .radio__group {
     display: flex;
@@ -38,7 +58,8 @@ label {
 @media screen and (min-width:700px) {
     .filter__container {
 
-        display: block;
+        display: flex;
+        flex-direction: column;
         padding: 1rem;
         background-color: #f8f8f8;
         border-radius: 10px;

@@ -8,7 +8,7 @@ const ServiceCard =({nombre, info, reference, category})=>{
     const navigate = useNavigate();
     const handleCategoriaClick = (categoria) => {
         filtrarPorCategoria(categoria);
-        navigate("/homePage"); // Redirige
+        navigate("/homePage"); 
     };
     return(
         <motion.div 
@@ -25,7 +25,7 @@ const ServiceCard =({nombre, info, reference, category})=>{
                 </div>
                 
                 <button className={styles.service__card__button} onClick={() => handleCategoriaClick(category)}>
-                    <a href={reference}>Explore Now</a>
+                    <a >Explore Now</a>
                     <img src="assets/chebron__right.png" alt="" />
                 </button>
             </div>

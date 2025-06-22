@@ -48,6 +48,7 @@
     display: flex;
     align-items: flex-end;
     padding: 0 5px 10px;
+    transition: background-color 0.3s ease;
 }
 
 .social__media__container div:hover{
@@ -61,14 +62,11 @@
 
 }
 
-Link{
-    text-decoration: none;
-}
 .option__selected__text{
     color: #fff;
     text-decoration: none;
 }
-.option__selected__text{
+.option__selected__text:hover{
 
     text-decoration: none;
     color: #fff;
@@ -148,6 +146,11 @@ Link{
         display: flex;
         gap: 20px;
         height: 100%;
+
+    }
+
+    .option__selected_text{
+        color: #000;
 
     }
 
