@@ -2,7 +2,7 @@
 .plan__section__container{
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 90%;
     margin: auto;
 }
 .plan__section{

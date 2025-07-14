@@ -1,9 +1,11 @@
+
 .home__main__section {
     background-color: #fff;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     padding: 2.5%;
+
 }
 
 .home__vehicles__section {

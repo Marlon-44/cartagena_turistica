@@ -22,10 +22,10 @@ const Footer =()=>{
                 </ul>
                 <ul className={styles.footer__list}>
                     <h3>Features</h3>
-                    <li className={styles.footer__list__item}>Sport Cars</li>
-                    <li className={styles.footer__list__item}>SUV</li>
+                    <li className={styles.footer__list__item}>Island</li>
+                    <li className={styles.footer__list__item}>Beach Clubs</li>
                     <li className={styles.footer__list__item}>Yathces</li>
-                    <li className={styles.footer__list__item}>Bikes</li>
+                    <li className={styles.footer__list__item}>City Tours</li>
                 </ul>
                 <ul className={styles.footer__list}>
                     <h3>Resorces</h3>

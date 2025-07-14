@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     height: 85vh;
-    width: 100vw;
+    width: 100%;
     background-color: #fff;
     
 }
@@ -146,7 +146,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        font-size: 5vw;
     }
     .banner__title{
         color: aqua;

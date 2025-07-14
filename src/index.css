@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  
 }
 
 /* Ajustar el ancho y el alto de los elementos para incluir bordes y paddings */
@@ -16,7 +17,7 @@ html, body {
   width: 100%;
   height: 100%;
   background-color: #262626;
-  overflow-x: hidden;
+  
 }
 
 /* Eliminar estilos predeterminados de listas */
