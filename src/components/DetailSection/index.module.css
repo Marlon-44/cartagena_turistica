@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .plan__details {
     width: 90vw;
     margin: 2rem;
@@ -10,13 +15,27 @@
 }
 
 .plan__details p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
 }
 
 .details__table tbody tr th {
     width: 20%;
 }
+
+.plan__description ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 1rem;
+    }
+
+    .plan__description h4 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 1rem 0;
+        padding: 0;
+    }
 
 @media screen and (min-width:900px) {
 
@@ -33,11 +52,13 @@
 
     .plan__details p {
         max-width: 50%;
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
+        font-size: 1rem;
     }
 
     .details__table tbody tr th {
         width: 20%;
     }
+
+    
+    
 }

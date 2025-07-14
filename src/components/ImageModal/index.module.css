@@ -1,0 +1,14 @@
+.modal{
+    width: 90%;
+    margin: auto;
+}
+.photo__container{
+    position: absolute;
+    margin: auto;
+}
+
+.modal__photo{
+    width: 100%;
+    max-height: 90vh;
+    border: none;
+}

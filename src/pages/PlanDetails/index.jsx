@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 import ReviewSection from "../../components/ReviewSection";
 import PlanesContext from "../../features/planes/PlanesContext";
 import Whatsapp from "../../components/Whatsapp";
+import PlanGallery from "./components/PlanGallery";
 
 const PlanDetails = () => {
     const { id } = useParams();
@@ -16,13 +17,14 @@ const plan = planesOriginales.find((p) => p.id === parseInt(id));
     if (!plan) return <p>Plan no encontrado</p>;
 
     return (
-        <>  
+        <div style={{width:"100%"}}>  
             <Header/>
             <Whatsapp/>
             <PlanSumamry plan={plan}/>
             <DetailSection plan={plan}/>
+            <PlanGallery plan={plan}/>
             <ReviewSection/>
-        </>
+        </div>
     );
 };
 

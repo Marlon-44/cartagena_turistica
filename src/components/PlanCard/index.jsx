@@ -14,16 +14,16 @@ const PlanCard = ({plan}) =>{
             whileInView={{opacity: 1, y:0}}
             transition={{duration: 1.5, ease: "easeOut"}}
             viewport={{once:true, amount: 0.2}}
-            className={styles.plan__card}>
+            className={styles.plan__card}
+            onClick={handleClick}>
                 
             <img src={plan.imagenes[0]} alt="" />
-            <h3>{plan.nombre}</h3>
-            <h4>Cartagena de Indias</h4>
+            <h3 style={{fontSize:"1.2rem"}}>{plan.nombre}</h3>
+            
             <div className={styles.plan__price}>
-                <p>{`$ ${plan.precio}`}</p>
-                <button className={styles.plan__card__button}
-                onClick={handleClick}>Ver Mas</button>
+                <p style={{fontSize:"1.2rem"}}>{`$ ${plan.precio}`}</p>
             </div>
+            <h4>Cartagena de Indias</h4>
         </motion.div>
     )
 }

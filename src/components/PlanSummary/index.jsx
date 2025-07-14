@@ -5,10 +5,12 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import dayjs from "dayjs";
 import TextField from "@mui/material/TextField";
+import { Rating } from "@mui/material";
+import ImageModal from "../ImageModal";
 
 const PlanSummary = ({ plan }) => {
     const [activePhoto, setActivePhoto] = useState(plan.imagenes[0]);
-
+    const [modalOpen, setModalOpen] = useState(false)
     const [selectedDate, setSelectedDate] = useState(null);
     const [numPersonas, setNumPersonas] = useState("");
     const [errors, setErrors] = useState({
@@ -45,7 +47,9 @@ const PlanSummary = ({ plan }) => {
         window.open(url, "_blank");
     }
 };
-
+    const handleImageModal = () => {
+        setModalOpen(true)
+    }
     return (
         <section className={styles.vehicle__summary}>
             <div className={styles.vehicle__photos}>
@@ -60,13 +64,13 @@ const PlanSummary = ({ plan }) => {
                         />
                     ))}
                 </div>
-                <img className={styles.active} src={activePhoto} alt={`${plan.nombre}`} />
+                <img className={styles.active} src={activePhoto} alt={`${plan.nombre}`} onClick={handleImageModal}/>
             </div>
 
             <div className={styles.summary__info}>
                 <h1>{plan.nombre}</h1>
-                <p> ⭐ ⭐ ⭐ ⭐ ⭐   5/5</p>
-                <h2>${plan.precio}/día</h2>
+                <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} readOnly />
+                <h2>${plan.precio}</h2>
 
                 <div className={styles.inputs__section}>
                     <LocalizationProvider dateAdapter={AdapterDayjs}>
@@ -102,6 +106,12 @@ const PlanSummary = ({ plan }) => {
                             
                 <button className={styles.book__button} onClick={handleBooking}>Reservar</button>
             </div>
+            <ImageModal 
+                photo={activePhoto}
+                open={modalOpen}
+                onClose={() => setModalOpen(false)}/>
+
+                
         </section>
     );
 };
