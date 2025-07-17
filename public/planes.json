@@ -18,7 +18,8 @@
             "/assets/SIBARITA/atardecerSibaritaExpress3.jpg",
             "/assets/SIBARITA/atardecerSibaritaExpress4.jpg"
         ],
-        "destacado": true
+        "destacado": true,
+        "locacion": "Cartagena de Indias"
     },
     {
         "id": 1,
@@ -44,7 +45,8 @@
             "/assets/SIBARITA/atardecerSibaritaMaster8.jpg",
             "/assets/SIBARITA/atardecerSibaritaMaster9.jpg"
         ],
-        "destacado": true
+        "destacado": true,
+        "locacion": "Cartagena de Indias"
     },
     {
         "id": 2,
@@ -64,7 +66,8 @@
             "/assets/SIBARITA/sibaritaExpress2.jpg",
             "/assets/SIBARITA/sibaritaExpress3.jpg"
         ],
-        "destacado": true
+        "destacado": true,
+        "locacion": "Cartagena de Indias"
     },
     {
         "id": 3,
@@ -85,6 +88,670 @@
             "/assets/SIBARITA/sibaritaMaster3.jpg",
             "/assets/SIBARITA/sibaritaMaster4.jpg"
         ],
-        "destacado": true
+        "destacado": true,
+        "locacion": "Cartagena de Indias"
+    },
+    {
+        "id": 4,
+        "nombre": "Chiva Rumbera",
+        "categoria": "Ciudad",
+        "precio": 70000,
+        "descripcion": "Gózate la mejor fiesta nocturna mientras recorres la ciudad histórica y moderna de Cartagena en una chiva rumbera.",
+        "incluye": [
+            "Recorrido panorámico",
+            "Coordinador Bilingüe",
+            "Fiesta y música",
+            "Animador",
+            "Transporte terrestre",
+            "Seguro contra accidente"
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/CHIVA_RUMBERA/img1.jpg",
+            "/assets/CHIVA_RUMBERA/img2.jpg",
+            "/assets/CHIVA_RUMBERA/img3.jpg",
+            "/assets/CHIVA_RUMBERA/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Cartagena de Indias"
+    },
+    {
+        "id": 5,
+        "nombre": "Encantada Beach",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Embarcaremos en una emocionante aventura por aguas cristalinas que deslumbran con sus tonos azul turquesa, en una isla privada, rodeados de hermosas playas y paisajes de ensueño.",
+        "incluye": [
+            "Transporte en lancha ida y regreso (50 minutos)",
+            "Coctel de bienvenida.",
+            "Almuerzo (mojarra frita, pollo, opción vegetariana)",
+            "Uso de las instalaciones.",
+            "Coordinador Bilingüe."
+        ],
+        "noIncluye": [
+            "Tasa Portuaria (23000 COP)",
+            "Actividades adicionales",
+            "Otros gastos no especificados"
+        ],
+        "imagenes": [
+            "/assets/ENCANTADA_BEACH/img1.jpg",
+            "/assets/ENCANTADA_BEACH/img2.jpg",
+            "/assets/ENCANTADA_BEACH/img3.jpg",
+            "/assets/ENCANTADA_BEACH/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Cartagena de Indias"
+    },
+    {
+        "id": 6,
+        "nombre": "5 Islas VIP",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Descubre la belleza del Caribe colombiano en las Islas del Rosario y Tierra Bomba, explora sus aguas cristalinas con snorkel y vive una experiencia única en el mejor club de playa de Isla Barú con Mambo.",
+        "incluye": [
+            "Transporte en bote deportivo con música.",
+            "Ensalada de frutas",
+            "Coordinador Bilingüe",
+            "Visita y explicación histórica del Fuerte de Bocachica.",
+            "1 Botella con agua.",
+            "Estadía en el exclusivo Mambo Beach Club",
+            "Snorkel en Isla Grande.",
+            "Visita a isla privada la Cocotera, donde disfrutaras de una Limonada de coco, limonada natural o coctel de camarones.",
+            "Visita a isla Cholón",
+            "Bono de $30000 COP para el almuerzo",
+            "Seguro contra accidente"
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/5_ISLAS_VIP/img1.jpg",
+            "/assets/5_ISLAS_VIP/img2.jpg",
+            "/assets/5_ISLAS_VIP/img3.jpg",
+            "/assets/5_ISLAS_VIP/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Cartagena de Indias"
+    },
+    {
+        "id": 8,
+        "nombre": "Santa Marta Sector Playa Cristal",
+        "categoria": "Playa",
+        "precio": 200000,
+        "descripcion": "Sumérgete en la belleza natural de la Playa Cristal del Parque Tayrona con nuestro tour exclusivo. ¡Relájate, disfruta y vive una experiencia inolvidable en Santa Marta!",
+        "incluye": [
+            "Recogida en el hotel o punto de encuentro.",
+            "Coordinador Bilingüe.",
+            "Recorrido panorámico desde Cartagena a Santa Marta.",
+            "Entradas al Parque Tayrona.",
+            "Charla educativa sobre la conservación del medio ambiente, en el Parque.",
+            "Parada en mirador Siete Olas y Playa Nenguaje.",
+            "Transporte marítimo hacia Playa Cristal.",
+            "Almuerzo típico.",
+            "Retorno a sus hoteles o punto de encuentro.",
+            "Seguro contra accidentes."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/SANTA_MARTA_SECTOR_PLAYA_CRISTAL/img1.jpg",
+            "/assets/SANTA_MARTA_SECTOR_PLAYA_CRISTAL/img2.jpg",
+            "/assets/SANTA_MARTA_SECTOR_PLAYA_CRISTAL/img3.jpg",
+            "/assets/SANTA_MARTA_SECTOR_PLAYA_CRISTAL/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Santa Marta"
+    },
+    {
+        "id": 9,
+        "nombre": "Bora Bora",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Experimenta la tranquilidad del mar combinado con el mejor ambiente de fiesta en un exclusivo beach club de las islas del Rosario.",
+        "incluye": [
+            "Transporte marítimo",
+            "Coctel de bienvenida",
+            "Cama de playa o asoleadora",
+            "Almuerzo",
+            "Coordinador Bilingüe.",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/BORA_BORA/img1.jpg",
+            "/assets/BORA_BORA/img2.jpg",
+            "/assets/BORA_BORA/img3.jpg",
+            "/assets/BORA_BORA/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 10,
+        "nombre": "Bora Bora Pasadia VIP",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Experimenta la tranquilidad del mar combinado con el mejor ambiente de fiesta en un exclusivo beach club de las islas del Rosario.",
+        "incluye": [
+            "Transporte marítimo",
+            "Coctel de bienvenida",
+            "Cama de playa o asoleadora",
+            "Acceso a toda la isla",
+            "Almuerzo",
+            "Coordinador Bilingüe.",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/BORA_BORA_PASADIA_VIP/img1.jpg",
+            "/assets/BORA_BORA_PASADIA_VIP/img2.jpg",
+            "/assets/BORA_BORA_PASADIA_VIP/img3.jpg",
+            "/assets/BORA_BORA_PASADIA_VIP/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 11,
+        "nombre": "Pao Pao",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Experimenta la tranquilidad del mar y el mejor ambiente de relajación en un exclusivo beach club de las islas del Rosario.",
+        "incluye": [
+            "Transporte marítimo",
+            "Coctel de bienvenida",
+            "Asoleadora",
+            "Almuerzo",
+            "Coordinador Bilingüe.",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/PAO_PAO/img1.jpg",
+            "/assets/PAO_PAO/img2.jpg",
+            "/assets/PAO_PAO/img3.jpg",
+            "/assets/PAO_PAO/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 12,
+        "nombre": "Isla Palma",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Descubre un fascinante cayo en forma de palma ubicado a las afueras de Córdoba, donde encontrarás aguas cristalinas y arena blanca.",
+        "incluye": [
+            "Transporte terrestre",
+            "Transporte marítimo",
+            "Snack AM",
+            "Coctel de bienvenida",
+            "Uso de las instalaciones",
+            "Almuerzo",
+            "Coordinador Bilingüe.",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/ISLA_PALMA/img1.jpg",
+            "/assets/ISLA_PALMA/img2.jpg",
+            "/assets/ISLA_PALMA/img3.jpg",
+            "/assets/ISLA_PALMA/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Córdoba"
+    },
+    {
+        "id": 13,
+        "nombre": "Isla Mucura",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Descubre un fascinante cayo en el archipiélago de San Bernardo, donde encontrarás una zona coralina con aguas cristalinas.",
+        "incluye": [
+            "Transporte terrestre",
+            "Transporte marítimo",
+            "Snack AM",
+            "Recorrido panorámico y parada en Tintipan",
+            "Uso de las instalaciones",
+            "Almuerzo",
+            "Coordinador Bilingüe.",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/ISLA_MUCURA_PASADIA/img1.jpg",
+            "/assets/ISLA_MUCURA_PASADIA/img2.jpg",
+            "/assets/ISLA_MUCURA_PASADIA/img3.jpg",
+            "/assets/ISLA_MUCURA_PASADIA/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Archipiélago de San Bernardo"
+    },
+    {
+        "id": 14,
+        "nombre": "Isla del Encanto",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos.",
+        "incluye": [
+            "Transporte marítimo",
+            "Coctel de bienvenida",
+            "Asoleadora",
+            "Almuerzo",
+            "Coordinador Bilingüe.",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/ISLA_DEL_ENCANTO/img1.jpg",
+            "/assets/ISLA_DEL_ENCANTO/img2.jpg",
+            "/assets/ISLA_DEL_ENCANTO/img3.jpg",
+            "/assets/ISLA_DEL_ENCANTO/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 15,
+        "nombre": "Palmarito Beach",
+        "categoria": "Playa",
+        "precio": 200000,
+        "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos en Tierra Bomba.",
+        "incluye": [
+            "Transporte marítimo",
+            "Coctel de bienvenida",
+            "Cómodas instalaciones",
+            "Uso de kayaks y tablas de paddles",
+            "Almuerzo",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente"
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/PALMARITO_BEACH/img1.jpg",
+            "/assets/PALMARITO_BEACH/img2.jpg",
+            "/assets/PALMARITO_BEACH/img3.jpg",
+            "/assets/PALMARITO_BEACH/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Tierra Bomba"
+    },
+    {
+        "id": 16,
+        "nombre": "Islabela",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos en Islas del Rosario.",
+        "incluye": [
+            "Transporte marítimo",
+            "Coctel de bienvenida",
+            "Cómodas instalaciones",
+            "Uso de kayaks",
+            "Almuerzo",
+            "Traslado a oceanario (No incluye entrada)",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/ISLABELA/img1.jpg",
+            "/assets/ISLABELA/img2.jpg",
+            "/assets/ISLABELA/img3.jpg",
+            "/assets/ISLABELA/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 17,
+        "nombre": "Isla del Pirata Standard",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos ubicado en Parques Nacionales Corales de Indias.",
+        "incluye": [
+            "Transporte marítimo",
+            "Coctel de bienvenida",
+            "Cómodas instalaciones",
+            "Almuerzo",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/ISLA_DEL_PIRATA_STANDARD/img1.jpg",
+            "/assets/ISLA_DEL_PIRATA_STANDARD/img2.jpg",
+            "/assets/ISLA_DEL_PIRATA_STANDARD/img3.jpg",
+            "/assets/ISLA_DEL_PIRATA_STANDARD/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Parques Nacionales Corales de Indias"
+    },
+    {
+        "id": 18,
+        "nombre": "Isla del Pirata Premium",
+        "categoria": "Isla",
+        "precio": 200000,
+        "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos ubicado en Parques Nacionales Corales de Indias.",
+        "incluye": [
+            "Transporte marítimo",
+            "Coctel de bienvenida",
+            "Cómodas instalaciones",
+            "Almuerzo",
+            "Barra libre de 10:00 Am a 12:00 Pm",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/ISLA_DEL_PIRATA_PREMIUM/img1.jpg",
+            "/assets/ISLA_DEL_PIRATA_PREMIUM/img2.jpg",
+            "/assets/ISLA_DEL_PIRATA_PREMIUM/img3.jpg",
+            "/assets/ISLA_DEL_PIRATA_PREMIUM/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Parques Nacionales Corales de Indias"
+    },
+    {
+        "id": 19,
+        "nombre": "Luxury - Eco Hotel",
+        "categoria": "Hotel",
+        "precio": 200000,
+        "descripcion": "Aprovecha una gran área de playa con espacios verdes, ideales para descansar, relajarse y tomar sol en frente de una hermosa vista.",
+        "incluye": [
+            "Transporte marítimo",
+            "Uso de kayak y tablas de paddles",
+            "Aseoleadora",
+            "Almuerzo",
+            "Barra libre en bebidas sin licor",
+            "Traslado a oceanario (No incluye entrada)",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/LUXURY_ECO_HOTEL/img1.jpg",
+            "/assets/LUXURY_ECO_HOTEL/img2.jpg",
+            "/assets/LUXURY_ECO_HOTEL/img3.jpg",
+            "/assets/LUXURY_ECO_HOTEL/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 20,
+        "nombre": "Luxury Pasadía VIP",
+        "categoria": "Pasadía",
+        "precio": 250000,
+        "descripcion": "Aprovecha una gran área de playa con espacios verdes, ideales para descansar, relajarse y tomar sol en frente de una hermosa vista.",
+        "incluye": [
+            "Transporte marítimo",
+            "Uso de kayak y tablas de paddles",
+            "Aseoleadora",
+            "Almuerzo",
+            "Barra libre en bebidas sin licor",
+            "Careta de snorkel",
+            "Traslado a oceanario (No incluye entrada)",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/LUXURY_PASADIA_VIP/img1.jpg",
+            "/assets/LUXURY_PASADIA_VIP/img2.jpg",
+            "/assets/LUXURY_PASADIA_VIP/img3.jpg",
+            "/assets/LUXURY_PASADIA_VIP/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 21,
+        "nombre": "Isla Lizamar",
+        "categoria": "Pasadía",
+        "precio": 200000,
+        "descripcion": "Diviértete en toboganes, piscinas y una hermosa playa cerca de zonas coralinas en Islas del Rosario.",
+        "incluye": [
+            "Transporte marítimo",
+            "Cóctel de bienvenida",
+            "Cómodas instalaciones",
+            "Almuerzo",
+            "Estancia en isla privada",
+            "Traslado a oceanario (No incluye entrada)",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/ISLA_LIZAMAR/img1.jpg",
+            "/assets/ISLA_LIZAMAR/img2.jpg",
+            "/assets/ISLA_LIZAMAR/img3.jpg",
+            "/assets/ISLA_LIZAMAR/img4.jpg"
+        ],
+        "destacado": true,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 22,
+        "nombre": "Isla del Sol",
+        "categoria": "Pasadía",
+        "precio": 180000,
+        "descripcion": "Conoce la piscina salada más grande de Cartagena ubicada en los archipiélagos de Islas del Rosario y disfruta de una hermosa vista junto a más espacios de playa en 3 tonos de azul.",
+        "incluye": [
+            "Transporte marítimo",
+            "Cómodas instalaciones",
+            "Almuerzo",
+            "Estancia en isla privada",
+            "Ensalada de frutas",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/ISLA_DEL_SOL/img1.jpg",
+            "/assets/ISLA_DEL_SOL/img2.jpg",
+            "/assets/ISLA_DEL_SOL/img3.jpg",
+            "/assets/ISLA_DEL_SOL/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 23,
+        "nombre": "Cocoliso",
+        "categoria": "Pasadía",
+        "precio": 170000,
+        "descripcion": "Un lugar de otro mundo: playa, piscina natural y artificial con bar dentro. Si buscas tranquilidad y pasar un día agradable, este es el lugar indicado.",
+        "incluye": [
+            "Transporte marítimo",
+            "Cóctel de bienvenida",
+            "Cómodas instalaciones",
+            "Almuerzo",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/COCOLISO/img1.jpg",
+            "/assets/COCOLISO/img2.jpg",
+            "/assets/COCOLISO/img3.jpg",
+            "/assets/COCOLISO/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 24,
+        "nombre": "Paue Beach Club",
+        "categoria": "Pasadía",
+        "precio": 190000,
+        "descripcion": "Déjate sorprender por una amplia playa con hermosos colores, múltiples actividades y una atención de otro nivel en las islas del rosario.",
+        "incluye": [
+            "Transporte marítimo",
+            "Copa de champán",
+            "Cómodas instalaciones",
+            "Almuerzo",
+            "Recorrido panorámico en islas del rosario",
+            "Cama de playa o asoleadora",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/PAUE/img1.jpg",
+            "/assets/PAUE/img2.jpg",
+            "/assets/PAUE/img3.jpg",
+            "/assets/PAUE/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Islas del Rosario"
+    },
+    {
+        "id": 25,
+        "nombre": "Isla Cocotera",
+        "categoria": "Pasadía",
+        "precio": 180000,
+        "descripcion": "Camas, sol, playa y tranquilidad es todo lo que encontrarás en este hermoso cayo ubicado en Parques Nacionales Corales de Indias.",
+        "incluye": [
+            "Transporte marítimo",
+            "Cóctel de bienvenida",
+            "Cómodas instalaciones",
+            "Almuerzo",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/COCOTERA/img1.jpg",
+            "/assets/COCOTERA/img2.jpg",
+            "/assets/COCOTERA/img3.jpg",
+            "/assets/COCOTERA/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Parques Nacionales Corales de Indias"
+    },
+    {
+        "id": 26,
+        "nombre": "Margarita's Beach",
+        "categoria": "Pasadía",
+        "precio": 180000,
+        "descripcion": "Déjate sorprender por un beach club privado en Tierra Bomba, con múltiples actividades y una atención de otro nivel.",
+        "incluye": [
+            "Transporte marítimo",
+            "Cóctel de bienvenida",
+            "Cómodas instalaciones",
+            "Almuerzo",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/MARGARITA/img1.jpg",
+            "/assets/MARGARITA/img2.jpg",
+            "/assets/MARGARITA/img3.jpg",
+            "/assets/MARGARITA/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Tierra Bomba"
+    },
+    {
+        "id": 27,
+        "nombre": "Santa Marta VIP Tour",
+        "categoria": "Tour",
+        "precio": 190000,
+        "descripcion": "Conocida como la perla de América, podrás disfrutar de hermosos paisajes naturales, recorrer el centro de la ciudad y admirar el atardecer en la bahía.",
+        "incluye": [
+            "Transporte",
+            "Paseo panorámico por Barranquilla",
+            "Desayuno en Ciénaga Magdalena",
+            "Llegada a Santa Marta",
+            "Estancia en Playa Blanca Santa Marta",
+            "Almuerzo",
+            "Paseo por la bahía",
+            "Coordinador Bilingüe",
+            "Retorno a Cartagena",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/SANTA_MARTA_VIP_TOUR/img1.jpg",
+            "/assets/SANTA_MARTA_VIP_TOUR/img2.jpg",
+            "/assets/SANTA_MARTA_VIP_TOUR/img3.jpg",
+            "/assets/SANTA_MARTA_VIP_TOUR/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Santa Marta"
+    },
+    {
+        "id": 28,
+        "nombre": "Cabo San Juan",
+        "categoria": "Pasadía",
+        "precio": 220000,
+        "descripcion": "Combinación del azul del cielo con el verde de la naturaleza, tierra mágica y aguas cristalinas que harán que te transportes a otro mundo.",
+        "incluye": [
+            "Transporte terrestre",
+            "Paseo panorámico por Barranquilla",
+            "Desayuno ligero",
+            "Entrada al parque Tayrona",
+            "Punto de hidratación",
+            "Almuerzo",
+            "Charla y caminata",
+            "Coordinador Bilingüe",
+            "Retorno a Cartagena",
+            "Seguro contra accidente."
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/CABO_SAN_JUAN/img1.jpg",
+            "/assets/CABO_SAN_JUAN/img2.jpg",
+            "/assets/CABO_SAN_JUAN/img3.jpg",
+            "/assets/CABO_SAN_JUAN/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Santa Marta - Parque Tayrona"
+    },
+    {
+        "id": 29,
+        "nombre": "Volcán del Totumo",
+        "categoria": "Pasadía",
+        "precio": 70000,
+        "descripcion": "Sumérgete en la naturaleza y prueba los sabores locales con un típico snack en nuestro tour de 4 horas en el fabuloso volcán, dónde podrás disfrutar de una maravillosa exfoliación, acompañado de un guía bilingüe y observando un gran paisaje.",
+        "incluye": [
+            "Recogida en zona centro y norte de la ciudad",
+            "Transporte terrestre con aire acondicionado",
+            "Coordinador Bilingüe",
+            "Ticket para ingresar al Volcán",
+            "Snack típico de la región",
+            "Seguro contra accidente"
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/VOLCAN_DEL_TOTUMO/img1.jpg",
+            "/assets/VOLCAN_DEL_TOTUMO/img2.jpg",
+            "/assets/VOLCAN_DEL_TOTUMO/img3.jpg",
+            "/assets/VOLCAN_DEL_TOTUMO/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Santa Catalina - Bolívar"
+    },
+    {
+        "id": 30,
+        "nombre": "Volcán del Totumo + Playa + Piscina",
+        "categoria": "Pasadía",
+        "precio": 90000,
+        "descripcion": "Disfruta de las maravillas de la naturaleza con un baño de lodo en el volcán del Totumo. En la zona, podrás limpiarte para ser trasladado a relajarte en una playa con acceso a piscina del Club Arena Beach.",
+        "incluye": [
+            "Transporte terrestre",
+            "Baño en el volcán",
+            "Baño en la laguna del Totumo",
+            "Acceso a piscina e instalaciones del Club Arena Beach",
+            "Coordinador Bilingüe",
+            "Seguro contra accidente"
+        ],
+        "noIncluye": [],
+        "imagenes": [
+            "/assets/VOLCAN_PLAYA_PISCINA/img1.jpg",
+            "/assets/VOLCAN_PLAYA_PISCINA/img2.jpg",
+            "/assets/VOLCAN_PLAYA_PISCINA/img3.jpg",
+            "/assets/VOLCAN_PLAYA_PISCINA/img4.jpg"
+        ],
+        "destacado": false,
+        "locacion": "Santa Catalina - Bolívar"
     }
 ]
