@@ -3,6 +3,7 @@ import styles from "./header.module.css"
 import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import PlanesContext from "../../features/planes/PlanesContext";
+import { Facebook, FacebookOutlined, FacebookRounded, Instagram, WhatsApp } from "@mui/icons-material";
 const Header = ({ telefono = "573024453961" }) => {
     const { filtrarPorCategoria, resetearFiltros } = useContext(PlanesContext);
     const navigate = useNavigate();
@@ -52,17 +53,18 @@ const Header = ({ telefono = "573024453961" }) => {
                 <div className={styles.social__media__container}>
                     <div>
                         <a href="https://www.instagram.com/cartagena_turistica_/?hl=es">
-                            <img src="/assets/instagramIcon.svg" alt="icon que redirecciona a instagram" />
+                            
+                            <Instagram sx={{color: "white"}}/>
                         </a>
                     </div>
                     <div>
                         <a href={url}>
-                            <img src="/assets/whatsappIcon.svg" alt="Icon que redirecciona a Whatsapp" />
+                            <WhatsApp sx={{color: "white"}}/>
                         </a>
                     </div>
                     <div>
                         <a href="https://www.instagram.com/cartagena_turistica_/?hl=es">
-                            <img src="/assets/facebookIcon.svg" alt="Icon que redirecciona a Facebook" />
+                            <FacebookRounded sx={{color: "white"}}/>
                         </a>
                     </div>
 

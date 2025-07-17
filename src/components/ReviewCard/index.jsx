@@ -1,5 +1,7 @@
+import { RateReview } from "@mui/icons-material";
 import styles from "./index.module.css";
 import { motion } from "framer-motion"
+import { Rating } from "@mui/material";
 const ReviewCard = ({ review }) => {
     return (
         <motion.div
@@ -8,7 +10,7 @@ const ReviewCard = ({ review }) => {
             transition={{ duration: 1.5, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }}
             className={styles.review__container}>
-            <p> ⭐ ⭐ ⭐ ⭐ ⭐ 5/5</p>
+            <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} readOnly />
             <h2>{review.user} <img src="/assets/verified.svg" alt="" /></h2>
             <p>{review.text}</p>
             <h5>Posted on {review.date}</h5>

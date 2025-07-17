@@ -5,9 +5,12 @@
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
-.review__container h2 {
-    font-size: 1.4rem;
+.review__container h2, h5 {
+    font-size: 1rem;
     font-weight: 600;
+}
+.review__container p{
+    font-size: 0.8rem;
 }
 
 @media screen and (min-width: 900px) {

@@ -5,7 +5,7 @@
 
 .plan__details {
     width: 90vw;
-    margin: 2rem;
+    margin: auto;
     margin-top: 5rem;
 }
 
@@ -24,18 +24,24 @@
 }
 
 .plan__description ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        font-size: 1rem;
-    }
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1rem;
+}
 
-    .plan__description h4 {
-        font-size: 1rem;
-        font-weight: 600;
-        margin: 1rem 0;
-        padding: 0;
-    }
+.plan__description h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.whats__included__box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
 @media screen and (min-width:900px) {
 
@@ -59,6 +65,10 @@
         width: 20%;
     }
 
-    
-    
+    .whats__included__box {
+        flex-direction: row;
+    }
+
+
+
 }

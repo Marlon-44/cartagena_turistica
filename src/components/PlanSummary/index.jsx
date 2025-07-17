@@ -71,6 +71,7 @@ const PlanSummary = ({ plan }) => {
                 <h1>{plan.nombre}</h1>
                 <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} readOnly />
                 <h2>${plan.precio}</h2>
+                <p>{plan.descripcion}</p>
 
                 <div className={styles.inputs__section}>
                     <LocalizationProvider dateAdapter={AdapterDayjs}>

@@ -8,6 +8,7 @@ import Header from "../../components/Header";
 import PlanHomeCard from "../../components/PlanHomeCard";
 import PlanesContext from "../../features/planes/PlanesContext";
 import Whatsapp from "../../components/Whatsapp";
+import { Filter, Filter1, FilterAltOff, FilterCenterFocus, FilterHdrSharp, FilterList, Settings, TuneOutlined } from "@mui/icons-material";
 
 const Home = () => {
     const {planes, loading } = useContext(PlanesContext);
@@ -78,6 +79,15 @@ const Home = () => {
             <section className={styles.home__main__section}>
                 <PlanFilterForm />
                 <section className={styles.home__vehicles__section}>
+                    
+                    <div className={styles.filter__for__mobile}>
+                        <button className={styles.filter__btn}>
+                            <TuneOutlined fontSize="small"/>
+                            Filtros
+                        </button>
+                        <p style={{color: "gray", fontWeight:"500"}}>{planes.length} planes encontrados</p>
+                    </div>
+
                     <div className={styles.vehicles__container}>
                         {loading ? (
                             <p>Cargando vehículos...</p>

@@ -7,12 +7,12 @@ import ReviewSection from "../../components/ReviewSection";
 import PlanesContext from "../../features/planes/PlanesContext";
 import Whatsapp from "../../components/Whatsapp";
 import PlanGallery from "./components/PlanGallery";
+import SectionTitle from "../../components/SectionTitle";
+import PlanesSection from "../../components/PlanSection";
 
 const PlanDetails = () => {
     const { id } = useParams();
-    const { planesOriginales, planSeleccionado } = useContext(PlanesContext);
-    //console.log("plan seleccionado ", id);
-    console.log("plan seleccionado ", planSeleccionado);
+    const { planesOriginales} = useContext(PlanesContext);
     const plan = planesOriginales.find((p) => p.id === parseInt(id));
     
     if (!plan) return <p>Plan no encontrado</p>;
@@ -24,6 +24,8 @@ const PlanDetails = () => {
             <PlanSumamry plan={plan}/>
             <DetailSection plan={plan}/>
             <PlanGallery plan={plan}/>
+            <SectionTitle sectionName="Explore Other Options"/>
+            <PlanesSection/>
             <ReviewSection/>
         </div>
     );
