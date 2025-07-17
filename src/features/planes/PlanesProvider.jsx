@@ -8,6 +8,7 @@ const PlanesProvider = ({ children }) => {
     const [planesDestacados, setPlanesDestacados] = useState([]);
     const [loading, setLoading] = useState(true);
     const [filtrosAplicados, setFiltrosAplicados] = useState(null);
+    const [planSeleccionado, setPlanSeleccionado] = useState(null);
 
     const cargarPlanes = async () => {
         setLoading(true);
@@ -50,7 +51,9 @@ const PlanesProvider = ({ children }) => {
             filtrarPorCategoria,
             resetearFiltros,
             cargarPlanes,
-            planesOriginales // opcional si lo necesitas en otra parte
+            planesOriginales, 
+            planSeleccionado,
+            setPlanSeleccionado
         }}>
             {children}
         </PlanesContext.Provider>

@@ -1,10 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./index.module.css"
+import { useContext } from "react";
+import PlanesContext from "../../features/planes/PlanesContext";
 const PlanHomeCard = ({ plan }) => {
     const navigate = useNavigate();
-
+    const {planSeleccionado, setPlanSeleccionado}= useContext(PlanesContext);
     const handleClick = () => {
         navigate(`/plan/${plan.id}`);
+        setPlanSeleccionado(plan.id)
     };
 
     return (

@@ -10,10 +10,11 @@ import PlanGallery from "./components/PlanGallery";
 
 const PlanDetails = () => {
     const { id } = useParams();
-    const { planesOriginales } = useContext(PlanesContext);
-    console.log("plan seleccionado ", id);
-const plan = planesOriginales.find((p) => p.id === parseInt(id));
-
+    const { planesOriginales, planSeleccionado } = useContext(PlanesContext);
+    //console.log("plan seleccionado ", id);
+    console.log("plan seleccionado ", planSeleccionado);
+    const plan = planesOriginales.find((p) => p.id === parseInt(id));
+    
     if (!plan) return <p>Plan no encontrado</p>;
 
     return (
