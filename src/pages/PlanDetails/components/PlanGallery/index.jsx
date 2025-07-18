@@ -6,16 +6,16 @@ import ImageModal from "../../../../components/ImageModal";
 import { useState } from "react";
 const PlanGallery = ({ plan }) => {
     const [selectedPhoto, setSelectedPhoto] = useState("")
-    const [openModal, setOpenModal]= useState(false)
-    const handleSelectedPhoto =( image)=>{
+    const [openModal, setOpenModal] = useState(false)
+    const handleSelectedPhoto = (image) => {
         setSelectedPhoto(image)
         setOpenModal(true)
     }
 
     return (
         <section className={styles.gallery__section}>
-            <Subtitle text ="Galeria"/>
-            <Box sx={{ width: "100%", height: "auto"}}>
+            <Subtitle text="Galeria" />
+            <Box sx={{ width: "100%", height: "auto" }}>
                 <ImageList variant="masonry" cols={3} gap={8}>
                     {plan.imagenes.map((item) => (
                         <ImageListItem key={item.img}>
@@ -25,6 +25,11 @@ const PlanGallery = ({ plan }) => {
                                 alt={"imagen del plan"}
                                 loading="lazy"
                                 onClick={() => handleSelectedPhoto(item)}
+                                onError={(e) => {
+                                    e.target.onerror = null;
+                                    e.target.src = "/assets/default.jpg";
+                                    e.target.srcset="";
+                                }}
                             />
                         </ImageListItem>
                     ))}
@@ -32,8 +37,8 @@ const PlanGallery = ({ plan }) => {
             </Box>
             <ImageModal
                 open={openModal}
-                onClose={()=>setOpenModal(false)}
-                photo ={selectedPhoto}
+                onClose={() => setOpenModal(false)}
+                photo={selectedPhoto}
             />
         </section>
 

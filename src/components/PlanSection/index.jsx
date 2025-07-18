@@ -144,7 +144,7 @@ const PlanesSection = () => {
                     className={styles.plan__section__button}
                     
                 >
-                    {isAllVisible ? "View less" : "View More"}
+                    {isAllVisible ? "Ver Menos" : "Ver Mas"}
                 </motion.button>
                 
         </section>

@@ -42,7 +42,7 @@ const Banner = () => {
                         initial={{x:200, opacity: 0}}
                         animate={{x: 0, opacity: 1}}
                         transition={{duration: 3, delay: 2, ease:"easeOut"}}
-                        className={styles.banner__title}><span className={styles.title__highlight}>EX</span>PLORE</motion.h2>
+                        className={styles.banner__title}><span className={styles.title__highlight}>EX</span>PLORA</motion.h2>
 
                     <div className={styles.banner__info}>
                         <h3 className={styles.banner__subtitle}>

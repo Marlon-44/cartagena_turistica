@@ -94,13 +94,13 @@
     .menu__nav ul {
         display: flex;
         list-style: none;
-        gap: 30px;
+        gap: 2rem;
         align-items: baseline;
         height: 100%;
     }
 
     .menu__nav ul p {
-        font-size: 10px;
+        font-size: 0.8rem;
         font-weight: 600;
         color: #9c9c9c;
     }
@@ -119,7 +119,7 @@
     .menu__nav ul div {
         display: flex;
         flex-direction: column;
-        width: 120px;
+        width: 140px;
         justify-content: flex-end;
         height: 100%;
         text-align: center;

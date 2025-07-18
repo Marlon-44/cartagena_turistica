@@ -38,15 +38,15 @@ const Header = ({ telefono = "573024453961" }) => {
                         </div>
                         <p>|</p>
                         <div>
-                            <button onClick={() => handleCategoriaClick("ISLA")} className={styles.menu_option}>ISLANDS</button>
+                            <button onClick={() => handleCategoriaClick("ISLA")} className={styles.menu_option}>ISLAS</button>
                         </div>
                         <p>|</p>
                         <div>
-                            <button onClick={() => handleCategoriaClick("EMBARCACION")} className={styles.menu_option}>YATCHES</button>
+                            <button onClick={() => handleCategoriaClick("EMBARCACION")} className={styles.menu_option}>EMBARCACIONES</button>
                         </div>
                         <p>|</p>
                         <div>
-                            <button onClick={() => handleCategoriaClick("TOUR")} className={styles.menu_option}>CITY TOURS</button>
+                            <button onClick={() => handleCategoriaClick("TOUR")} className={styles.menu_option}>TOURS</button>
                         </div>
                     </ul>
                 </nav>

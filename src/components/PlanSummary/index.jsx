@@ -23,30 +23,30 @@ const PlanSummary = ({ plan }) => {
     };
 
     const handleBooking = () => {
-    let hasError = false;
-    const newErrors = { date: "", personas: "" };
+        let hasError = false;
+        const newErrors = { date: "", personas: "" };
 
-    if (!selectedDate) {
-        newErrors.date = "Selecciona una fecha válida";
-        hasError = true;
-    }
+        if (!selectedDate) {
+            newErrors.date = "Selecciona una fecha válida";
+            hasError = true;
+        }
 
-    if (!numPersonas || isNaN(numPersonas) || parseInt(numPersonas) <= 0) {
-        newErrors.personas = "Ingresa un número válido de personas";
-        hasError = true;
-    }
+        if (!numPersonas || isNaN(numPersonas) || parseInt(numPersonas) <= 0) {
+            newErrors.personas = "Ingresa un número válido de personas";
+            hasError = true;
+        }
 
-    setErrors(newErrors);
+        setErrors(newErrors);
 
-    if (!hasError) {
-        const telefono = "573024453961"; // tu número en formato internacional sin '+'
-        const fechaFormateada = selectedDate.format("DD/MM/YYYY"); // usando dayjs
-        const mensaje = `¡Hola! Estoy interesado en el plan *${plan.nombre}* para *${numPersonas}* personas el día *${fechaFormateada}*. ¿Me puedes dar más información?`;
-        const mensajeCodificado = encodeURIComponent(mensaje);
-        const url = `https://wa.me/${telefono}?text=${mensajeCodificado}`;
-        window.open(url, "_blank");
-    }
-};
+        if (!hasError) {
+            const telefono = "573024453961"; // tu número en formato internacional sin '+'
+            const fechaFormateada = selectedDate.format("DD/MM/YYYY"); // usando dayjs
+            const mensaje = `¡Hola! Estoy interesado en el plan *${plan.nombre}* para *${numPersonas}* personas el día *${fechaFormateada}*. ¿Me puedes dar más información?`;
+            const mensajeCodificado = encodeURIComponent(mensaje);
+            const url = `https://wa.me/${telefono}?text=${mensajeCodificado}`;
+            window.open(url, "_blank");
+        }
+    };
     const handleImageModal = () => {
         setModalOpen(true)
     }
@@ -60,11 +60,22 @@ const PlanSummary = ({ plan }) => {
                             src={url}
                             alt={`${plan.marca}-${index}`}
                             onMouseEnter={() => handleMouseEnter(url)}
+                            onError={(e) => {
+                                e.target.onerror = null;
+                                e.target.src = "/assets/default.jpg";
+                            }}
                             className={styles.thumbnail}
                         />
                     ))}
                 </div>
-                <img className={styles.active} src={activePhoto} alt={`${plan.nombre}`} onClick={handleImageModal}/>
+                <img className={styles.active}
+                    src={activePhoto}
+                    alt={`${plan.nombre}`}
+                    onClick={handleImageModal}
+                    onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = "/assets/default.jpg";
+                    }} />
             </div>
 
             <div className={styles.summary__info}>
@@ -104,15 +115,15 @@ const PlanSummary = ({ plan }) => {
                     />
                 </div>
 
-                            
+
                 <button className={styles.book__button} onClick={handleBooking}>Reservar</button>
             </div>
-            <ImageModal 
+            <ImageModal
                 photo={activePhoto}
                 open={modalOpen}
-                onClose={() => setModalOpen(false)}/>
+                onClose={() => setModalOpen(false)} />
 
-                
+
         </section>
     );
 };

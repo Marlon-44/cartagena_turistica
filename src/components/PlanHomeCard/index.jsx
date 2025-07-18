@@ -4,7 +4,7 @@ import { useContext } from "react";
 import PlanesContext from "../../features/planes/PlanesContext";
 const PlanHomeCard = ({ plan }) => {
     const navigate = useNavigate();
-    const {planSeleccionado, setPlanSeleccionado}= useContext(PlanesContext);
+    const { planSeleccionado, setPlanSeleccionado } = useContext(PlanesContext);
     const handleClick = () => {
         navigate(`/plan/${plan.id}`);
         setPlanSeleccionado(plan.id)
@@ -13,7 +13,10 @@ const PlanHomeCard = ({ plan }) => {
     return (
         <div className={styles.card__container} onClick={handleClick}>
             <div className={styles.image__section}>
-                <img src={plan.imagenes[0]} alt={`${plan.nombre} `} />
+                <img src={plan.imagenes[0]} alt={`${plan.nombre} `} onError={(e) => {
+                    e.target.onerror = null; 
+                    e.target.src = "/assets/default.jpg"; 
+                }} />
             </div>
             <div className={styles.info__section}>
                 <h3>{`${plan.nombre}`}</h3>
