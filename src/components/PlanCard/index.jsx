@@ -23,7 +23,7 @@ const PlanCard = ({plan}) =>{
             <div className={styles.plan__price}>
                 <p style={{fontSize:"1.2rem"}}>{`$ ${plan.precio}`}</p>
             </div>
-            <h4>Cartagena de Indias</h4>
+            <h4>plan.locacion</h4>
         </motion.div>
     )
 }

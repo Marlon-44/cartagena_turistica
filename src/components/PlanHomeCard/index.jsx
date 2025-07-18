@@ -19,7 +19,7 @@ const PlanHomeCard = ({ plan }) => {
                 <h3>{`${plan.nombre}`}</h3>
                 <h2>{`$${plan.precio}`}</h2>
                 <p>{`Category | ${plan.categoria}`}</p>
-                <h4>Cartagena De Indias - Bolivar</h4>
+                <h4>{plan.locacion}</h4>
             </div>
         </div>
     );

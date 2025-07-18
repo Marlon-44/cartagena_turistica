@@ -94,7 +94,7 @@
     {
         "id": 4,
         "nombre": "Chiva Rumbera",
-        "categoria": "Ciudad",
+        "categoria": "TOUR",
         "precio": 70000,
         "descripcion": "Gózate la mejor fiesta nocturna mientras recorres la ciudad histórica y moderna de Cartagena en una chiva rumbera.",
         "incluye": [
@@ -118,7 +118,7 @@
     {
         "id": 5,
         "nombre": "Encantada Beach",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Embarcaremos en una emocionante aventura por aguas cristalinas que deslumbran con sus tonos azul turquesa, en una isla privada, rodeados de hermosas playas y paisajes de ensueño.",
         "incluye": [
@@ -145,7 +145,7 @@
     {
         "id": 6,
         "nombre": "5 Islas VIP",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Descubre la belleza del Caribe colombiano en las Islas del Rosario y Tierra Bomba, explora sus aguas cristalinas con snorkel y vive una experiencia única en el mejor club de playa de Isla Barú con Mambo.",
         "incluye": [
@@ -174,7 +174,7 @@
     {
         "id": 8,
         "nombre": "Santa Marta Sector Playa Cristal",
-        "categoria": "Playa",
+        "categoria": "TOUR",
         "precio": 200000,
         "descripcion": "Sumérgete en la belleza natural de la Playa Cristal del Parque Tayrona con nuestro tour exclusivo. ¡Relájate, disfruta y vive una experiencia inolvidable en Santa Marta!",
         "incluye": [
@@ -202,7 +202,7 @@
     {
         "id": 9,
         "nombre": "Bora Bora",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Experimenta la tranquilidad del mar combinado con el mejor ambiente de fiesta en un exclusivo beach club de las islas del Rosario.",
         "incluye": [
@@ -226,7 +226,7 @@
     {
         "id": 10,
         "nombre": "Bora Bora Pasadia VIP",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Experimenta la tranquilidad del mar combinado con el mejor ambiente de fiesta en un exclusivo beach club de las islas del Rosario.",
         "incluye": [
@@ -251,7 +251,7 @@
     {
         "id": 11,
         "nombre": "Pao Pao",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Experimenta la tranquilidad del mar y el mejor ambiente de relajación en un exclusivo beach club de las islas del Rosario.",
         "incluye": [
@@ -275,7 +275,7 @@
     {
         "id": 12,
         "nombre": "Isla Palma",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Descubre un fascinante cayo en forma de palma ubicado a las afueras de Córdoba, donde encontrarás aguas cristalinas y arena blanca.",
         "incluye": [
@@ -301,7 +301,7 @@
     {
         "id": 13,
         "nombre": "Isla Mucura",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Descubre un fascinante cayo en el archipiélago de San Bernardo, donde encontrarás una zona coralina con aguas cristalinas.",
         "incluye": [
@@ -327,7 +327,7 @@
     {
         "id": 14,
         "nombre": "Isla del Encanto",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos.",
         "incluye": [
@@ -351,7 +351,7 @@
     {
         "id": 15,
         "nombre": "Palmarito Beach",
-        "categoria": "Playa",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos en Tierra Bomba.",
         "incluye": [
@@ -376,7 +376,7 @@
     {
         "id": 16,
         "nombre": "Islabela",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos en Islas del Rosario.",
         "incluye": [
@@ -402,7 +402,7 @@
     {
         "id": 17,
         "nombre": "Isla del Pirata Standard",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos ubicado en Parques Nacionales Corales de Indias.",
         "incluye": [
@@ -426,7 +426,7 @@
     {
         "id": 18,
         "nombre": "Isla del Pirata Premium",
-        "categoria": "Isla",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Disfruta de un día de playa, piscina y tranquilidad en uno de los mejores puntos para disfrutar solo, en familia o con amigos ubicado en Parques Nacionales Corales de Indias.",
         "incluye": [
@@ -451,7 +451,7 @@
     {
         "id": 19,
         "nombre": "Luxury - Eco Hotel",
-        "categoria": "Hotel",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Aprovecha una gran área de playa con espacios verdes, ideales para descansar, relajarse y tomar sol en frente de una hermosa vista.",
         "incluye": [
@@ -477,7 +477,7 @@
     {
         "id": 20,
         "nombre": "Luxury Pasadía VIP",
-        "categoria": "Pasadía",
+        "categoria": "ISLA",
         "precio": 250000,
         "descripcion": "Aprovecha una gran área de playa con espacios verdes, ideales para descansar, relajarse y tomar sol en frente de una hermosa vista.",
         "incluye": [
@@ -504,7 +504,7 @@
     {
         "id": 21,
         "nombre": "Isla Lizamar",
-        "categoria": "Pasadía",
+        "categoria": "ISLA",
         "precio": 200000,
         "descripcion": "Diviértete en toboganes, piscinas y una hermosa playa cerca de zonas coralinas en Islas del Rosario.",
         "incluye": [
@@ -530,7 +530,7 @@
     {
         "id": 22,
         "nombre": "Isla del Sol",
-        "categoria": "Pasadía",
+        "categoria": "ISLA",
         "precio": 180000,
         "descripcion": "Conoce la piscina salada más grande de Cartagena ubicada en los archipiélagos de Islas del Rosario y disfruta de una hermosa vista junto a más espacios de playa en 3 tonos de azul.",
         "incluye": [
@@ -555,7 +555,7 @@
     {
         "id": 23,
         "nombre": "Cocoliso",
-        "categoria": "Pasadía",
+        "categoria": "ISLA",
         "precio": 170000,
         "descripcion": "Un lugar de otro mundo: playa, piscina natural y artificial con bar dentro. Si buscas tranquilidad y pasar un día agradable, este es el lugar indicado.",
         "incluye": [
@@ -579,7 +579,7 @@
     {
         "id": 24,
         "nombre": "Paue Beach Club",
-        "categoria": "Pasadía",
+        "categoria": "ISLA",
         "precio": 190000,
         "descripcion": "Déjate sorprender por una amplia playa con hermosos colores, múltiples actividades y una atención de otro nivel en las islas del rosario.",
         "incluye": [
@@ -605,7 +605,7 @@
     {
         "id": 25,
         "nombre": "Isla Cocotera",
-        "categoria": "Pasadía",
+        "categoria": "ISLA",
         "precio": 180000,
         "descripcion": "Camas, sol, playa y tranquilidad es todo lo que encontrarás en este hermoso cayo ubicado en Parques Nacionales Corales de Indias.",
         "incluye": [
@@ -629,7 +629,7 @@
     {
         "id": 26,
         "nombre": "Margarita's Beach",
-        "categoria": "Pasadía",
+        "categoria": "ISLA",
         "precio": 180000,
         "descripcion": "Déjate sorprender por un beach club privado en Tierra Bomba, con múltiples actividades y una atención de otro nivel.",
         "incluye": [
@@ -653,7 +653,7 @@
     {
         "id": 27,
         "nombre": "Santa Marta VIP Tour",
-        "categoria": "Tour",
+        "categoria": "TOUR",
         "precio": 190000,
         "descripcion": "Conocida como la perla de América, podrás disfrutar de hermosos paisajes naturales, recorrer el centro de la ciudad y admirar el atardecer en la bahía.",
         "incluye": [
@@ -681,7 +681,7 @@
     {
         "id": 28,
         "nombre": "Cabo San Juan",
-        "categoria": "Pasadía",
+        "categoria": "TOUR",
         "precio": 220000,
         "descripcion": "Combinación del azul del cielo con el verde de la naturaleza, tierra mágica y aguas cristalinas que harán que te transportes a otro mundo.",
         "incluye": [
@@ -709,7 +709,7 @@
     {
         "id": 29,
         "nombre": "Volcán del Totumo",
-        "categoria": "Pasadía",
+        "categoria": "TOUR",
         "precio": 70000,
         "descripcion": "Sumérgete en la naturaleza y prueba los sabores locales con un típico snack en nuestro tour de 4 horas en el fabuloso volcán, dónde podrás disfrutar de una maravillosa exfoliación, acompañado de un guía bilingüe y observando un gran paisaje.",
         "incluye": [
@@ -733,7 +733,7 @@
     {
         "id": 30,
         "nombre": "Volcán del Totumo + Playa + Piscina",
-        "categoria": "Pasadía",
+        "categoria": "TOUR",
         "precio": 90000,
         "descripcion": "Disfruta de las maravillas de la naturaleza con un baño de lodo en el volcán del Totumo. En la zona, podrás limpiarte para ser trasladado a relajarte en una playa con acceso a piscina del Club Arena Beach.",
         "incluye": [
