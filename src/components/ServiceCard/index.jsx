@@ -25,7 +25,7 @@ const ServiceCard =({nombre, info, reference, category})=>{
                 </div>
                 
                 <button className={styles.service__card__button} onClick={() => handleCategoriaClick(category)}>
-                    <a >Explore Now</a>
+                    <a >Explorar ahora</a>
                     <img src="assets/chebron__right.png" alt="" />
                 </button>
             </div>

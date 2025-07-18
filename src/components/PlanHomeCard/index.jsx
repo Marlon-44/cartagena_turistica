@@ -18,7 +18,7 @@ const PlanHomeCard = ({ plan }) => {
             <div className={styles.info__section}>
                 <h3>{`${plan.nombre}`}</h3>
                 <h2>{`$${plan.precio}`}</h2>
-                <p>{`Category | ${plan.categoria}`}</p>
+                <p>{`Categoria | ${plan.categoria}`}</p>
                 <h4>{plan.locacion}</h4>
             </div>
         </div>

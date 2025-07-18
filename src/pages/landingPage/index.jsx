@@ -12,9 +12,9 @@ const LandingPage = () =>{
         <div className={styles.body__page}>
             <Header/>
             <Banner/>
-            <SectionTitle sectionName="Our Services And Destinations"/>
+            <SectionTitle sectionName="Nuestros Servicios y Destinos"/>
             <ServiceSection/>
-            <SectionTitle sectionName="Our Ilands and club Beaches Plans"/>
+            <SectionTitle sectionName="Nuestras Islas y Clubes de Playa"/>
             <PlanSection/>
         </div>
 

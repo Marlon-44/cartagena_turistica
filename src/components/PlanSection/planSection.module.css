@@ -4,6 +4,7 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
+    margin-bottom: 2rem;
 }
 .plan__section{
     display: flex;
