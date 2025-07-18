@@ -1,21 +1,58 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+// src/AppRoutes.jsx
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 import LandingPage from "./pages/landingPage";
 import Home from "./pages/HomePage";
-import Header from "./components/Header";
 import PlanDetails from "./pages/PlanDetails";
 import Footer from "./components/Footer";
-const AppRoutes = () =>{
-    
-    return(
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<LandingPage/>}></Route>
-                    <Route path="/homePage" element={<Home/>}></Route>
-                    <Route path="/plan/:id" element={<PlanDetails/>}></Route>
+import ScrollToTop from "./components/ScrollToTop";
+import PageTransition from "./components/PageTransition";
+
+const AnimatedRoutes = () => {
+    const location = useLocation();
+
+    return (
+        <>
+            <ScrollToTop />
+            <AnimatePresence mode="wait">
+                <Routes location={location} key={location.pathname}>
+                    <Route
+                        path="/"
+                        element={
+                            <PageTransition>
+                                <LandingPage />
+                            </PageTransition>
+                        }
+                    />
+                    <Route
+                        path="/homePage"
+                        element={
+                            <PageTransition>
+                                <Home />
+                            </PageTransition>
+                        }
+                    />
+                    <Route
+                        path="/plan/:id"
+                        element={
+                            <PageTransition>
+                                <PlanDetails />
+                            </PageTransition>
+                        }
+                    />
                 </Routes>
-                <Footer/>
-            </BrowserRouter>
-        )
-}
+            </AnimatePresence>
+        </>
+    );
+};
+
+const AppRoutes = () => {
+    return (
+        <BrowserRouter>
+            <AnimatedRoutes />
+            <Footer />
+        </BrowserRouter>
+    );
+};
 
 export default AppRoutes;
