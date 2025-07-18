@@ -88,7 +88,7 @@
             "/assets/SIBARITA/sibaritaMaster3.jpg",
             "/assets/SIBARITA/sibaritaMaster4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Cartagena de Indias"
     },
     {
@@ -168,7 +168,7 @@
             "/assets/5_ISLAS_VIP/img3.jpg",
             "/assets/5_ISLAS_VIP/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Cartagena de Indias"
     },
     {
@@ -196,7 +196,7 @@
             "/assets/SANTA_MARTA_SECTOR_PLAYA_CRISTAL/img3.jpg",
             "/assets/SANTA_MARTA_SECTOR_PLAYA_CRISTAL/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Santa Marta"
     },
     {
@@ -220,7 +220,7 @@
             "/assets/BORA_BORA/img3.jpg",
             "/assets/BORA_BORA/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Islas del Rosario"
     },
     {
@@ -245,7 +245,7 @@
             "/assets/BORA_BORA_PASADIA_VIP/img3.jpg",
             "/assets/BORA_BORA_PASADIA_VIP/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Islas del Rosario"
     },
     {
@@ -269,7 +269,7 @@
             "/assets/PAO_PAO/img3.jpg",
             "/assets/PAO_PAO/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Islas del Rosario"
     },
     {
@@ -295,7 +295,7 @@
             "/assets/ISLA_PALMA/img3.jpg",
             "/assets/ISLA_PALMA/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Córdoba"
     },
     {
@@ -321,7 +321,7 @@
             "/assets/ISLA_MUCURA_PASADIA/img3.jpg",
             "/assets/ISLA_MUCURA_PASADIA/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Archipiélago de San Bernardo"
     },
     {
@@ -345,7 +345,7 @@
             "/assets/ISLA_DEL_ENCANTO/img3.jpg",
             "/assets/ISLA_DEL_ENCANTO/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Islas del Rosario"
     },
     {
@@ -370,7 +370,7 @@
             "/assets/PALMARITO_BEACH/img3.jpg",
             "/assets/PALMARITO_BEACH/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Tierra Bomba"
     },
     {
@@ -396,7 +396,7 @@
             "/assets/ISLABELA/img3.jpg",
             "/assets/ISLABELA/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Islas del Rosario"
     },
     {
@@ -420,7 +420,7 @@
             "/assets/ISLA_DEL_PIRATA_STANDARD/img3.jpg",
             "/assets/ISLA_DEL_PIRATA_STANDARD/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Parques Nacionales Corales de Indias"
     },
     {
@@ -445,7 +445,7 @@
             "/assets/ISLA_DEL_PIRATA_PREMIUM/img3.jpg",
             "/assets/ISLA_DEL_PIRATA_PREMIUM/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Parques Nacionales Corales de Indias"
     },
     {
@@ -471,7 +471,7 @@
             "/assets/LUXURY_ECO_HOTEL/img3.jpg",
             "/assets/LUXURY_ECO_HOTEL/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Islas del Rosario"
     },
     {
@@ -498,7 +498,7 @@
             "/assets/LUXURY_PASADIA_VIP/img3.jpg",
             "/assets/LUXURY_PASADIA_VIP/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Islas del Rosario"
     },
     {
@@ -524,7 +524,7 @@
             "/assets/ISLA_LIZAMAR/img3.jpg",
             "/assets/ISLA_LIZAMAR/img4.jpg"
         ],
-        "destacado": true,
+        "destacado": false,
         "locacion": "Islas del Rosario"
     },
     {
